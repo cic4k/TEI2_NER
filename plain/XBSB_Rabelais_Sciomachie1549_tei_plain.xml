@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.bvh.univ-tours.fr/XML-TEI/schema/BVH_Epistemon.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.bvh.univ-tours.fr/XML-TEI/schema/BVH_Epistemon.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="XBSB_Rabelais_Sciomachie1549_tei" xml:lang="fra">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><hi rend="it">La Sciomachie et festins faits à Rome</hi>, Lyon, 1549</title>
+            <respStmt>
+               <persName ref="#MLD">Marie-Luce Demonet</persName>
+               <resp><date>2015</date>Responsable BVH CESR, Relecture</resp>
+               <resp><date>2015</date>Éditeur scientifique</resp>
+            </respStmt>
+            <respStmt>
+               <name>Prestataire</name>
+               <resp><date>1996</date>Transcription</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="#JK">Jonas Kurscheidt</persName>
+               <resp><date>2014</date>Relecture de la transcription</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="#LD">Prestataire</persName>
+               <resp><date>2014</date>Encodage</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="#MaO">Marie Olivron</persName>
+               <resp><date>2015</date>Encodage</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="#MaO">Marie Olivron</persName>
+               <resp><date>2015</date>Contrôle de l'encodage</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="#LBe">Lauranne Bertrand</persName>
+               <resp><date>2015</date>Contrôle de l'encodage</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">
+               <ref target=" http://xtf.bvh.univ-tours.fr/xtf/view?docId=tei/XBSB_Sciomachie1549/XBSB_Sciomachie1549_tei.xml;doc.view=notice"/>
+               <date n="1" type="mise_en_ligne" when="2015-10-19">19/10/2015</date>
+               <date n="1" type="mise_a_jour" when="2016-04-19">19/04/2016</date>
+               </edition>
+            <respStmt>
+               <persName ref="#TU">Toshinori Uetani</persName>
+               <resp><date>2015</date>Révision de la notice</resp>
+            </respStmt>
+         </editionStmt>
+         <extent>126 ko</extent>
+         <publicationStmt>
+            <authority>Université François-Rabelais
+               <address>
+                  <addrLine>60, rue du Plat D'Étain</addrLine>
+                  <addrLine>BP 12050</addrLine>
+                  <addrLine>37020 Tours Cedex 1 France</addrLine>
+               </address>
+            </authority>
+            <authority>Centre National de la Recherche Scientifique (CNRS)
+               <address>
+                  <addrLine>3, rue Michel-Ange</addrLine>
+                  <addrLine>75794 Paris France</addrLine>
+               </address>
+            </authority>
+            <authority>
+               <ref target="http://www.cesr.univ-tours.fr"/>Centre d’Etudes Supérieures de la Renaissance (CESR)
+               <address>
+                  <addrLine>59, rue Néricault-Destouches</addrLine>
+                  <addrLine>BP 12050</addrLine>
+                  <addrLine>37020 Tours Cedex 1 France</addrLine>
+               </address>
+            </authority>
+            <availability>
+               <p>Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 (CC BY-NC-SA 4.0). <date when="2015">2015</date>
+               </p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>L’édition numérique de cette « sciomachie », terme savant que Rabelais traduit par « simulacre de bataille », a été établie à partir de l’édition unique de 1549 (Lyon, Sébastien Gryphe) d’après l’exemplaire de la Bayerische Staatsbibliothek (Ital. 448), qui montre deux R majuscules, et sur l’exemplaire de la Bibliothèque Municipale de Tours (Fonds Marcel Rés. 3542, ex libris d’Anatole France). Cet exemplaire, distinct par deux légères différences graphiques corrigées sur l’exemplaire de Munich, serait antérieur à ce dernier. Apparaît au crayon et d’une écriture moderne le nom du deuxième fils du roi, Louis, dont la naissance est célébrée dans le texte, nom laissé en blanc par l’imprimeur. 
+Rabelais offre, sous la forme d’une prétendue lettre au cardinal de Guise, le récit d’une fête donnée à Rome pour cet événement en mars 1549 (Louis d’Orléans mourra en octobre), et à laquelle il a dû assister, même si la manipulation du témoignage est probable. Très inspirée par l’entrée de Henri II à Lyon en 1548, mais aussi par les diableries des mystères avec ses feux d’artifice, elle a été précédée de deux versions en français d’un premier récit italien publié la même année par Antonio Buonaccorsi, source de Rabelais. Elle est marquée par de nombreux italianismes (voir la notice de François Moreau dans Rabelais, <title rend="it">Œuvres</title>, Pléiade, 1994, p. 1725-1726, et R. Cooper, <title rend="it">Rabelais et l’Italie</title>, 1991, p. 70-71).
+</note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier xml:id="XBSB_Rabelais_Sciomachie1549">
+                  <country>Allemagne</country>
+                  <settlement>Munich</settlement>
+                  <institution>Bayerische Staats Bibliothek</institution>
+                  <repository key="XBSB">BSB / Außenmagazin </repository>
+                  <idno type="cote">960727</idno>
+               </msIdentifier>
+               <msContents>
+                  <p>
+                     <biblStruct>
+                        <monogr>
+                           <author role="auteur">
+                              <persName key="pers1">
+                                 <surname>Rabelais</surname>
+                                 <forename>François</forename>
+                              </persName>
+                           </author>
+                           <author role="auteur_secondaire">
+                              <persName key="pers2">
+                                 <surname>Du Bellay</surname>
+                                 <forename>Jean</forename>
+                              </persName>
+                           </author>
+                           <title type="titre_court">La Sciomachie et festins faits à Rome</title>
+                           <title type="titre_long">La Sciomachie &amp; festins faits à Rome au Palais de monseigneur reverendissime Cardinal du Bellay pour l’heureuse naissance de monseigneur d’Orléans</title>
+                           <imprint>
+                              <pubPlace key="lieu1" role="impression">Lyon</pubPlace>
+                              <respStmt>
+                                 <resp>imprimeur</resp>
+                                 <persName key="pers2">
+                                    <surname>Tournes</surname>
+                                    <forename>Jean de</forename>
+                                 </persName>
+                              </respStmt>
+                              <respStmt>
+                                 <resp>libraire</resp>
+                                 <persName key="pers2">
+                                    <surname>Gryphe</surname>
+                                    <forename>Sébastien</forename>
+                                 </persName>
+                              </respStmt>
+                              <date when="1549">1549</date>
+                              <note type="adresse_typographique">A Lyon, Sebastien Gryph. M. D. XLIX.</note>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                  </p>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <collation>
+                           <p>[1, 1 bl.], 3-31, [1 bl.] p. (sig. A-B<hi rend="sup">8</hi>)</p>
+                           <dimensions>
+                              <dim type="format">8°</dim>
+                              <dim rend="medium" unit="lignes"/>
+                           </dimensions>
+                        </collation>
+                        <condition>
+                           <p>(Tours :) Exemplaire lavé et réglé. Dans cet exemplaire, à l'emplacement du nom du dauphin (p. 3, l. 5) est laissé un espace vide, où le nom de "Louis" est inscrit au crayon de bois à une date relativement récente. Un minuscule trou à la première ligne du titre sur le caractère "h".</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>(Tours :) Reliure en maroquin bleu (XIXe siècle ; signée Masson-Debunnelle). Dos à 5 faux-nerfs. Tranches dorées.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <provenance>
+                     <p>(Tours :) Au contreplat et à la garde supérieurs, ex-libris estampés sur cuir : "EX MUSEO DOUBLE" ; "Bibliothèque E. M. Bancel" (XIXe siècle : Étienne-Marcel Bancel) ; "Pro captu lectoris" ; ex-libris gravé sur papier : "Ex libris Anat. France", "Quidquid erit pati" (Anatole France) ; ex-libris estampé "Ex libris Jean Tannery". "Bequeathed by the Abbé Marcel, who appears to have acquired it at the Bry sale, 5 December 1966, no. 179, for 6000 fr." (Michel de Bry ; Raymond Marcel).</p>
+                     <p>Une note marginale au crayon de bois à la page 20 ; inscription au crayon à la garde inférieure : "EE1. III. 54".</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref target="http://reader.digitale-sammlungen.de/resolve/display/bsb10180805.html">Bayerische Staats Bibliothek Digital (XBSB_Rabelais_Sciomachie1549)</ref>
+                     </bibl>
+                     <bibl>
+                        <ref target="http://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=1280">BVH - Bibliothèque Municipale de Tours (Rés. 3542 FM)</ref>
+                     </bibl>
+                  </surrogates>
+                  <listBibl>
+                     <bibl>
+                        <author>La Charité (Cl.)</author>, 
+                        <title rend="it">« La Sciomachie (1549) de Rabelais : la ‘juste quantité d’une epistre’ ou l’alibi épistolaire de la propagande épidictique »</title>, 
+                        <pubPlace>Tangence</pubPlace>, 
+                        <biblScope unit="volume">n° 72</biblScope>, 
+                        <date>2003</date>, 
+                        <biblScope unit="page">p. 111- 126</biblScope>
+                     </bibl>
+                     <bibl>
+                        <author>Rawles (St.) et Screech (M.)</author>,
+                      <title rend="it"> New Rabelais Bibliography</title>,
+                      <pubPlace>Genève</pubPlace>,
+                      <date>1987</date>,
+                      <biblScope unit="volume">n° 103</biblScope>
+                     </bibl>
+                     <bibl>
+                        <author>Plan (P.-P.)</author>,
+                      <title rend="it">Bibliographie rabelaisienne</title>,
+                      <pubPlace>Paris</pubPlace>,
+                      <date>1904</date>,
+                      <biblScope unit="page">p. 235-236</biblScope>, 
+                      <biblScope unit="volume">n° XV</biblScope>
+                     </bibl>
+                     <bibl>
+                        <author>Baudrier (H.-L.) &amp; Baudrier (J.)</author>,
+                      <title rend="it">Bibliographie lyonnaise. Recherches sur les imprimeurs libraires, relieurs et fondeurs de lettres de Lyon au XVIe siècle</title>,
+                      <pubPlace>Lyon</pubPlace>,
+                      <date>1895-1921</date>,
+                      <biblScope unit="volume">t. VIII</biblScope>, 
+                      <biblScope unit="page">p. 232.</biblScope>
+                     </bibl>
+                     <bibl>
+                        <author>Gültlingen (S. Von)</author>,
+                      <title rend="it">Bibliographie des livres imprimés à Lyon au seizième siècle</title>,
+                      <pubPlace>Baden-Baden</pubPlace>,
+                      <biblScope unit="volume">t. V</biblScope>,
+                      <date>1997</date>,
+                      <editor>"Sébastien Gryphe"</editor>, 
+                      <biblScope unit="page">p. 176</biblScope>, 
+                      <biblScope unit="volume">n° 1096</biblScope> ; 
+                      <biblScope unit="volume">t. IX</biblScope>, 
+                      <date>2004</date>, 
+                      <biblScope unit="page">p. 157</biblScope>, 
+                      <editor>"Jean de Tournes"</editor>, 
+                      <biblScope unit="volume">n° 151</biblScope>
+                     </bibl>
+                     <bibl>
+                        <author>Cartier (A.)</author>, 
+    <title rend="it">Bibliographie des éditions des De Tournes, imprimeurs lyonnais</title>, 
+    <pubPlace>Paris</pubPlace>, 
+    <date>1937 (réimpression : Genève, 1970)</date>, 
+    <biblScope unit="volume">n° 151</biblScope>
+                     </bibl>
+                     <bibl>
+                        <author>Cooper (R.)</author>, 
+    <title rend="it">Rabelais et l'Italie</title>, 
+    <pubPlace>Genève</pubPlace>, 
+    <date>1991</date>, 
+    <biblScope unit="volume">Texte XII</biblScope>
+                        <biblScope unit="page">(p. 183-211)</biblScope>
+                     </bibl>
+                     <bibl>
+                        <ref target="http://renom.univ-tours.fr/fr/index/oeuvre/francois-rabelais/la-sciomachie-1549-0"><title rend="it">La Sciomachie</title> (1549) sur ReNom</ref>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Les langues sont encodées selon la norme iso 639-3. Pour les dialectes qui n'ont pas encore
+de code iso, un code non standard est appliqué sur le modèle "oci-gascon".</p>
+         <projectDesc>
+            <p>BVH : programme Bibliothèques Virtuelles Humanistes</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Cette édition suit deux exemplaires de référence.</p>
+            </correction>
+            <hyphenation>
+               <p>La division des mots en fin de ligne respecte l'original.</p>
+            </hyphenation>
+            <normalization>
+               <p>La transcription est dissimilée et désabrégée. Les s long sont normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="bvh:unknown">
+               <list>
+                  <item>Littérature</item>
+               </list>
+            </keywords>
+            <catRef scheme="bvh:corpus" target="#epistemon"/>
+            <catRef scheme="bvh:corpus" target="#rabelais"/>
+            <catRef scheme="bvh:version" target="#dissimile #desabrege #non_dissimile #non_desabrege"/>
+            <catRef scheme="bvh:version" target="#v3"/>
+            <catRef scheme="bvh:unknown" target="#matiere5"/>
+         </textClass>
+         <langUsage>
+            <language ident="frm">Français</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-09-19">Création du fichier en TEI P5 pour encodage
+<persName key="LD">Lydie Danjean</persName>
+         </change>
+         <change>
+            <date type="publication" when="2015-10-19">19/10/2015</date>
+            <persName key="resp6">
+               <surname>Bertrand</surname>
+               <forename>Lauranne</forename>
+            </persName>
+         </change>
+         <change when="2016-04">Ré-indentation du fichier quelques menues corrections.
+            <persName>
+               <surname>Duboc</surname>
+               <forename>Mathieu</forename>
+            </persName>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="Recit" xml:lang="frm">
+      <front>
+         <titlePage>
+            <figure>
+               <graphic url="XBSB_Rabelais_Sciomachie1549.jpg"/>
+               <figDesc>
+                     <ref target="http://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=1280">Bibliothèque Municipale de Tours - BVH</ref>
+               </figDesc>
+            </figure>
+            <docTitle>
+               <titlePart rend="center" type="main">
+                  <lb/><hi rend="large">La Sciomachie &amp; fe-</hi>
+                  <lb rend="hyphen"/>STINS FAITS A ROME
+                  <lb/><hi rend="it">au Palais de mon seigneur <choice><orig>reuerendissime</orig><reg>reverendissime</reg></choice>
+                  <lb/>Cardinal du Bellay, pour l’heureuse
+                  <lb/>naissance de mon seigneur
+                  <lb/>d’Orleans.</hi>
+                  <lb/>
+               </titlePart>
+               <titlePart type="subtitle">
+                  <lb/>Le tout extraict d’<choice><orig>vne</orig><reg>une</reg></choice> copie des lettres escri-
+                  <lb rend="hyphen"/><space unit="mm" quantity="10"/>tes à mon seigneur le <choice><orig>reuerendissime</orig><reg>reverendissime</reg></choice> Car-
+                  <lb rend="hyphen"/><space unit="mm" quantity="10"/>dinal de Guise, par M. François Rabelais
+                  <lb/><space unit="mm" quantity="10"/>docteur en medicine.</titlePart>
+            </docTitle>
+            <lb/>
+            <docImprint rend="center">
+               <lb/>A <pubPlace>LYON</pubPlace>,
+               <lb/>PAR <publisher>SEBASTIEN GRYPH</publisher>.<docDate>
+               <lb/>M. D. XLIX.</docDate>
+            </docImprint>
+         </titlePage>
+         <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0012.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_002" n="[2][page blanche]"/>
+      </front>
+      
+      <body>
+         <div xml:id="XBSB_Rabelais_Sciomachie1549_n1">
+            <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0013.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_003" n="3"/>
+            <fw place="top-right" type="pageNum">3</fw>
+            
+            <head rend="hidden">[La Sciomachie]</head>
+            
+            <p>
+               <lb/><choice><orig><hi rend="larger">A</hi>V</orig><reg><hi rend="larger">A</hi>U</reg></choice> troisieme <choice><orig>iour</orig><reg>jour</reg></choice> de <choice><orig>Feurier</orig><reg>Fevrier</reg></choice>
+               <lb/>M. D. XLIX. entre trois &amp;
+               <lb/>quatre heures du matin nas-
+               <lb rend="hyphen"/>quit au chasteau de saint Ger-
+               <lb rend="hyphen"/>main en Laye<supplied> Louis</supplied> Duc 
+               <lb/>d’Orleans, filz puisné du Tres-
+               <lb rend="hyphen"/>chrestien Roy de <choice><orig>Frāce</orig><reg>France</reg></choice> Henry
+               <lb/>de Valois second de ce nom, &amp; de tresillustre Ma-
+               <lb rend="hyphen"/>dame Catharine de Medicis sa bonne espouse. Ce-
+               <lb rend="hyphen"/>stuy propre <choice><orig>iour</orig><reg>jour</reg></choice> en Rome par les banques fut <choice><orig>vn</orig><reg>un</reg></choice>
+               <lb/>bruit tout commun sans autheur certain de ceste
+               <lb/>heureuse naissance, non seulement du lieu &amp; <choice><orig>iour</orig><reg>jour</reg></choice>
+               <lb/>susdits, mais aussi de l’heure: <choice><orig>sauoir</orig><reg>savoir</reg></choice> est <choice><orig>enuiron</orig><reg>environ</reg></choice>
+               <lb/>neuf heures selon la supputation des Romains. Qui
+               <lb/>est chose prodigieuse &amp; admirable, non toutesfois
+               <lb/>en mon endroit, qui pourrois alleguer par les hi-
+               <lb rend="hyphen"/>stoires Grecques &amp; Romaines, <choice><orig>nouuelles</orig><reg>nouvelles</reg></choice> insignes,
+               <lb/>comme de batailles perdues ou gaignees à plus de
+               <lb/>cinq cens lieües loing, ou autre cas d’importance
+               <lb/>grande, <choice><orig>auoir</orig><reg>avoir</reg></choice> esté semees au propre &amp; mesme <choice><orig>iour</orig><reg>jour</reg></choice>,
+               <lb/>voire <choice><orig>deuant</orig><reg>devant</reg></choice>, sans autheur congnu. Encores en
+               <lb/>veismes nous semblables à Lyon pour la <choice><orig>iournee</orig><reg>journee</reg></choice>
+               <lb/>de <choice><orig>Pauie</orig><reg>Pavie</reg></choice>, en la personne du feu seigneur de Ro-
+               <lb rend="hyphen"/>chefort: &amp; recentement à Paris au <choice><orig>iour</orig><reg>jour</reg></choice> que <choice><orig>com-
+               <lb rend="hyphen"/>batirēt</orig><reg>com-
+               <lb rend="hyphen"/>batirent</reg></choice> les seigneurs de <choice><orig>Iarnac</orig><reg>Jarnac</reg></choice>, &amp; Chastaigneraye:
+               <lb/>mille autres. Et est <choice><orig>vn</orig><reg>un</reg></choice> poinct sus lequel les Plato-
+               <lb rend="hyphen"/>niques ont fondé la participation de <choice><orig>diuinité</orig><reg>divinité</reg></choice> es
+               <lb/>Dieux tutelaires, lesquelz noz Theologiens ap-
+               <fw place="bot-center" type="sig">A 2</fw><fw place="bot-right" type="catch">pellent</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0014.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_004" n="4"/>
+               
+               <fw place="top-left" type="pageNum">4</fw>
+               
+               <lb rend="hyphen"/>pellent Anges gardians. Mais ce propos excederoit
+               <lb/>la <choice><orig>iuste</orig><reg>juste</reg></choice> quantité d’<choice><orig>vne</orig><reg>une</reg></choice> epistre. Tant est, que <choice><orig>lon</orig><reg>l’on</reg></choice>
+               <lb/>creut par les banques cestes <choice><orig>nouuelles</orig><reg>nouvelles</reg></choice> si obstiné-
+               <lb rend="hyphen"/>ment, que plusieurs de la part Françoise sus le soir
+               <lb/>en feirent feuz de <choice><orig>ioye</orig><reg>joye</reg></choice>, &amp; marquerent de croye
+               <lb/>blanche sus leurs calendiers ceste fauste &amp; heureu-
+               <lb rend="hyphen"/>se <choice><orig>iournee</orig><reg>journee</reg></choice>. Sept <choice><orig>iours</orig><reg>jours</reg></choice> apres furent ces bonnes <choice><orig>nou-
+               <lb rend="hyphen"/>uelles</orig><reg>nou-
+               <lb rend="hyphen"/>velles</reg></choice> plus au plein <choice><orig>auerees</orig><reg>averees</reg></choice> par quelques courriers
+               <lb/>de banque, venans <choice><orig>vns</orig><reg>uns</reg></choice> de Lyon, autres de Ferrare.
+            </p> 
+            <lb/><p rend="indent">Mes Seigneurs les <choice><orig>Reuerendissimes</orig><reg>Reverendissimes</reg></choice> Cardinaux
+               <lb/>François qui sont en ceste court Romaine, ensem-
+               <lb rend="hyphen"/>ble le seigneur d’<choice><orig>Vrfé</orig><reg>Urfé</reg></choice> Ambassadeur de sa <choice><orig>Maiesté</orig><reg>Majesté</reg></choice>,
+               <lb/>non ayans autre <choice><orig>aduis</orig><reg>advis</reg></choice> particulier, delayoient <choice><orig>tous-
+               <lb rend="hyphen"/>iours</orig><reg>tous-
+               <lb rend="hyphen"/>jours</reg></choice> à declairer leur <choice><orig>ioye</orig><reg>joye</reg></choice> &amp; alaigresse de ceste
+               <lb/>tant desiree naissance, <choice><orig>iusques</orig><reg>jusques</reg></choice> à ce que le seigneur
+               <lb/>Alexandre <choice><orig>Schiuanoia</orig><reg>Schivanoia</reg></choice> gentil homme Mantuan,
+               <lb/><choice><orig>arriua</orig><reg>arriva</reg></choice> au premier <choice><orig>iour</orig><reg>jour</reg></choice> de ce mois de Mars expres-
+               <lb rend="hyphen"/>sement <choice><orig>enuoyé</orig><reg>envoyé</reg></choice> de la part de sa <choice><orig>Maiesté</orig><reg>Majesté</reg></choice>, pour acer-
+               <lb rend="hyphen"/>tainer le Pere saint, les Cardinaux François, &amp;
+               <lb/>Ambassadeur, de ce que dessus. Adonques furent
+               <lb/>faits de tous costez festins &amp; feuz de <choice><orig>ioye</orig><reg>joye</reg></choice>, par trois
+               <lb/>soirs subsequens.
+            </p>
+            <lb/><p rend="indent">Mon Seigneur <choice><orig>Reuerendissime</orig><reg>Reverendissime</reg></choice> Cardinal du
+               <lb/>Bellay non content de ces menues &amp; vulgaires si-
+               <lb rend="hyphen"/>gnifications de liesse pour la naissance d’<choice><orig>vn</orig><reg>un</reg></choice> si <choice><orig>grād</orig><reg>grand</reg></choice>
+               <lb/>Prince destiné à choses si grandes en matiere de
+               <lb/><choice><orig>cheualerie</orig><reg>chevalerie</reg></choice>, &amp; gestes heroiques, <choice><orig>cōme</orig><reg>comme</reg></choice> il appert par
+               <lb/>son horoscope, si <choice><orig>vne</orig><reg>une</reg></choice> fois il eschappe quelque triste
+               <fw place="bot-right" type="catch">aspect</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0015.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_005" n="5"/>
+               
+               <fw place="top-right" type="pageNum">5</fw>
+               
+               <lb/>aspect en l’angle Occidental de la septieme mai-
+               <lb rend="hyphen"/>son: voulut (par maniere de dire) faire ce que feit
+               <lb/>le seigneur <choice><orig>Ian</orig><reg>Jan</reg></choice> <choice><orig>Iordan</orig><reg>Jordan</reg></choice> <choice><orig>Vrsin</orig><reg>Ursin</reg></choice>, lors que le Roy <choice><orig>Frā-
+               <lb rend="hyphen"/>çois</orig><reg>Fran-
+               <lb rend="hyphen"/>çois</reg></choice> d’heureuse memoire, obtint la victoire à Ma-
+               <lb rend="hyphen"/>rignan. Iceluy voyant par la part ennemie à <choice><orig>vn</orig><reg>un</reg></choice>
+               <lb/>faux rapport estre faits feuz parmy les rues de Ro-
+               <lb rend="hyphen"/>me, <choice><orig>cōme</orig><reg>comme</reg></choice> si ledit Roy eust perdu la bataille: quel-
+               <lb rend="hyphen"/>ques <choice><orig>iours</orig><reg>jours</reg></choice> apres <choice><orig>aduerti</orig><reg>adverti</reg></choice> de la verité du succes, &amp;
+               <lb/>de sa victoire, acheta cinq ou six maisons contigues
+               <lb/>en forme d’Isle, pres <geogFeat>mont</geogFeat> <choice><orig>Iordan</orig><reg>Jordan</reg></choice>, les feit emplir
+               <lb/>de fagotz, falourdes, &amp; tonneaux, <choice><orig>auecques</orig><reg>avecques</reg></choice> force
+               <lb/>pouldre de canon, puis meit le feu dedens. C’estoit
+               <lb/><choice><orig>vne</orig><reg>une</reg></choice> <choice><orig>nouuelle</orig><reg>nouvelle</reg></choice> Alosis, &amp; <choice><orig>nouueau</orig><reg>nouveau</reg></choice> feu de <choice><orig>ioye</orig><reg>joye</reg></choice>. Ainsi
+               <lb/>vouloit ledit Seigneur <choice><orig>Reuerendissime</orig><reg>Reverendissime</reg></choice>, pour de-
+               <lb rend="hyphen"/>clairer l’exces de son alaigresse pour cestes bonnes
+               <lb/><choice><orig>nouuelles</orig><reg>nouvelles</reg></choice> faire, quoy qu’il coustast, quelque chose
+               <lb/>spectable non encores veüe en Rome de nostre me-
+               <lb rend="hyphen"/>moire. Non la <choice><orig>pouuant</orig><reg>pouvant</reg></choice> toutesfois executer à sa
+               <lb/>fantasie &amp; contentement, obstant quelque maladie
+               <lb/><choice><orig>suruenue</orig><reg>survenue</reg></choice> en cestuy temps, audit seigneur Ambas-
+               <lb rend="hyphen"/>sadeur, auquel le cas touchoit pareillement à cause
+               <lb/>de son estat, fut <choice><orig>releué</orig><reg>relevé</reg></choice> de ceste perplexité par le
+               <lb/>moyen du seigneur Horace Farnese Duc de Ca-
+               <lb rend="hyphen"/>stres, &amp; des seigneurs Robert Strossi, &amp; de Mali-
+               <lb rend="hyphen"/>gni: lesquelz estoient en pareille combustion. Ilz
+               <lb/>mirent quatre testes en <choice><orig>vn</orig><reg>un</reg></choice> chapperon: en fin apres
+               <lb/>plusieurs propos mis en deliberation, resolurent
+               <lb/>faire <choice><orig>vne</orig><reg>une</reg></choice> Sciomachie, <choice><orig>cestadire</orig><reg>c’estadire</reg></choice>, <choice><orig>vn</orig><reg>un</reg></choice> simulacre &amp; re-
+               <fw place="bot-center" type="sig">A 3</fw> <fw place="bot-right" type="catch"><sic>present</sic></fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0016.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_006" n="6"/>
+               
+               <fw place="top-left" type="pageNum">6</fw>
+               
+               <lb rend="hyphen"/>présentation de bataille, <choice><sic>tat</sic><corr source="XBSB_Rabelais_Sciomachie1549"><choice><orig>tāt</orig><reg>tant</reg></choice></corr></choice> par eaue que par terre.
+            </p>
+            <lb/><p rend="indent">La Naumachie, <choice><orig>cestadire</orig><reg>c’estadire</reg></choice> le combat par eaue,
+               <lb/>estoit designé au dessus du pont Aelian, <choice><orig>iustement</orig><reg>justement</reg></choice>
+               <lb/><choice><orig>deuant</orig><reg>devant</reg></choice> le <choice><orig>iardin</orig><reg>jardin</reg></choice> secret du chasteau saint Ange: le-
+               <lb rend="hyphen"/>quel feu de memoire eternelle Guillaume du Bel-
+               <lb rend="hyphen"/>lay, seigneur de Langey, <choice><orig>auoit</orig><reg>avoit</reg></choice> <choice><orig>auecques</orig><reg>avecques</reg></choice> ses bandes
+               <lb/>fortifié, gardé, &amp; deffendu bien long temps contre
+               <lb/>les Lansquenetz, qui depuis saccagerent Rome.
+               <lb/>L’ordre d’iceluy <choice><orig>cōbat</orig><reg>combat</reg></choice> estoit tel, que <choice><orig>cinquāte</orig><reg>cinquante</reg></choice> me-
+               <lb rend="hyphen"/>nuz vaisseaux, <choice><orig>cōme</orig><reg>comme</reg></choice> Fustes, Galiotes, Gondoles &amp;
+               <lb/>Fregates armees <choice><orig>assailleroiēt</orig><reg>assailleroient</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> <choice><orig>grād</orig><reg>grand</reg></choice> &amp; <choice><orig>mōstrueux</orig><reg>monstrueux</reg></choice>
+               <lb/>Galion, composé de deux les plus grans vaisseaux,
+               <lb/>qui fussent en ceste marine: lesquelz <choice><orig>lon</orig><reg>l’on</reg></choice> <choice><orig>auoit</orig><reg>avoit</reg></choice> fait
+               <lb/>monter d’Hostie &amp; Porto à force de beufles. Et
+               <lb/>apres plusieurs ruses, assautz, <choice><orig>repoulsemēs</orig><reg>repoulsemens</reg></choice>, &amp; autres
+               <lb/><choice><orig>vsances</orig><reg>usances</reg></choice> de bataille <choice><orig>nauale</orig><reg>navale</reg></choice>, sus le soir <choice><orig>lon</orig><reg>l’on</reg></choice> mettroit
+               <lb/>le feu dedens iceluy Galion. Il y eust eu <choice><orig>vn</orig><reg>un</reg></choice> terrible <lb/>feu de <choice><orig>ioye</orig><reg>joye</reg></choice>, veu le grand nombre &amp; quantité de
+               <lb/>feuz artificielz, qu’on <choice><orig>auoit</orig><reg>avoit</reg></choice> mis dedens. <choice><orig>Ia</orig><reg>Ja</reg></choice> estoit
+               <lb/>iceluy Galion prest à combatre: les petis vaisseaux
+               <lb/>prestz d’assaillir, &amp; peintz selon les <choice><orig>liurees</orig><reg>livrees</reg></choice> des Ca-
+               <lb rend="hyphen"/>pitaines assaillans: <choice><orig>auecques</orig><reg>avecques</reg></choice> la <choice><orig>pauesade</orig><reg>pavesade</reg></choice> &amp; chorme
+               <lb/>bien galante. Mais ce combat fut obmis, à cause
+               <lb/>d’<choice><orig>vne</orig><reg>une</reg></choice> horrible crue du Tybre, &amp; vorages par trop
+               <lb/>dangereuses: comme vous <choice><orig>sauez</orig><reg>savez</reg></choice>, que c’est <choice><orig>vn</orig><reg>un</reg></choice> des <lb/>plus inconstans <choice><orig>fleuues</orig><reg>fleuves</reg></choice> du monde, &amp; croit inopi-
+               <lb rend="hyphen"/>nément non seulement par esgoutz des eaues tom-
+               <lb rend="hyphen"/>bantes des montaignes à la fonte des neiges, ou au-
+               <fw place="bot-right" type="catch">tres</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0017.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_007" n="7"/>
+               
+               <fw place="top-right" type="pageNum">7</fw>
+               
+               <lb rend="hyphen"/>tres pluies: ou par regorgemens des lacs, qui se des-
+               <lb rend="hyphen"/>chargent en iceluy: mais encores par maniere plus
+               <lb/><choice><orig>estrāge</orig><reg>estrange</reg></choice> par les vents Austraux qui soufflans droit
+               <lb/>en sa boucque pres Hostie, suspendant son cours,
+               <lb/>&amp; ne luy donnans lieu de s’escouller en ceste mer
+               <lb/>Hetrusque, le font enfler &amp; retourner arriere, <choice><orig>auec-
+               <lb rend="hyphen"/>ques</orig><reg>avec-
+               <lb rend="hyphen"/>ques</reg></choice> miserable calamité, &amp; vastation des terres <choice><orig>ad-
+               <lb rend="hyphen"/>iacentes</orig><reg>ad-
+               <lb rend="hyphen"/>jacentes</reg></choice>. <choice><orig>Adioint</orig><reg>Adjoint</reg></choice> aussi que deux <choice><orig>iours</orig><reg>jours</reg></choice> <choice><orig>deuāt</orig><reg>devant</reg></choice> <choice><orig>auoit</orig><reg>avoit</reg></choice>
+               <lb/>esté fait naufrage d’<choice><orig>vne</orig><reg>une</reg></choice> des Gondoles, en laquelle
+               <lb/>s’estoient <choice><orig>iettez</orig><reg>jettez</reg></choice> quelques Matachins imperitz de
+               <lb/>la marine, <choice><orig>cuydās</orig><reg>cuydans</reg></choice> fanfarer &amp; bouffonner sus eaue,
+               <lb/>comme ilz font tresbien en terre ferme. Telle
+               <lb/>Naumachie estoit assignee pour le dimenche di-
+               <lb rend="hyphen"/>xieme de ce mois.
+            </p>
+            <lb/><p rend="indent">La Sciomachie par terre fut faite au <choice><orig>ieudi</orig><reg>jeudi</reg></choice> subse
+               <lb rend="hyphen"/>quent. Pour laquelle mieux entendre est à noter,
+               <lb/>que pour icelle aptement parfaire fut eslue la pla-
+               <lb rend="hyphen"/>ce de sant Apostolo, par ce qu’apres celle d’Agone,
+               <lb/>c’est la plus belle &amp; longue de Rome: par ce aussi, &amp;
+               <lb/>principalement que le palais dudit Seigneur <choice><orig>Re-
+               <lb rend="hyphen"/>uerendissime</orig><reg>Re-
+               <lb rend="hyphen"/>verendissime</reg></choice> est sus le long d’icelle place. En icelle
+               <lb/>donques <choice><orig>deuant</orig><reg>devant</reg></choice> la grand’ porte d’iceluy palais fut
+               <lb/>par le deseing du Capitaine <choice><orig>Ian</orig><reg> Jan</reg></choice> <choice><orig>Frācisque</orig><reg>Francisque</reg></choice> de mon-
+               <lb rend="hyphen"/>te Melino erigé <choice><orig>vn</orig><reg>un</reg></choice> chasteau en forme quadrangu-
+               <lb rend="hyphen"/>laire, chacune face duquel estoit longue d’<choice><orig>enuiron</orig><reg>environ</reg></choice>
+               <lb/>vingt &amp; cinq pas: haute la moitié d’autant, compre
+               <lb rend="hyphen"/>nant le parapete. A chacun angle estoit erigé <choice><orig>vn</orig><reg>un</reg></choice>
+               <lb/>tourrion à quatre angles acutz: desquelz les trois
+               <fw place="bot-center" type="sig">A 4</fw><fw place="bot-right" type="catch">estoient</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0018.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_008" n="8"/>
+               
+               <fw place="top-left" type="pageNum">8</fw>
+               
+               <lb/>estoient proiettez au dehors, le quatrieme estoit
+               <lb/>amorti en l’angle de la muraille du chasteau. Tous
+               <lb/>estoient percez pour canonnieres par chacun des
+               <lb/>flans &amp; angles interieurs en deux endroitz, <choice><orig>sauoir</orig><reg>savoir</reg></choice>
+               <lb/>est au dessouz &amp; au dessus du cordon. Hauteur
+               <lb/>d’iceux <choice><orig>auecques</orig><reg>avecques</reg></choice> leur parapete, comme de ladite
+               <lb/>muraille. Et estoit icelle muraille pour la face prin-
+               <lb rend="hyphen"/>cipale qui regardoit le long de la place, &amp; le con-
+               <lb rend="hyphen"/>tour de ses deux tourrions, de fortes tables &amp; esses
+               <lb/><choice><orig>iusques</orig><reg>jusques</reg></choice> au cordon: le dessus estoit de brique, pour
+               <lb/>la raison qu’orrez par cy apres. Les autres deux fa-
+               <lb rend="hyphen"/>ces <choice><orig>auecques</orig><reg>avecques</reg></choice> leurs tourrions estoient toutes de ta-
+               <lb rend="hyphen"/>bles &amp; limandes. La muraille de la porte du palais
+               <lb/>estoit pour quarte face. Au coing de laquelle par le
+               <lb/>dedens du chasteau estoit erigee <choice><orig>vne</orig><reg>une</reg></choice> tour quarree
+               <lb/>de pareille matiere, haute trois fois autant, que les
+               <lb/>autres tourrions. Par le dehors tout estoit <choice><orig>aptemēt</orig><reg>aptement</reg></choice>
+               <lb/><choice><orig>ioint</orig><reg>joint</reg></choice>, collé, &amp; peint, comme si fussent murailles de
+               <lb/>grosses pierres entaillees à la rustique, telle qu’on
+               <lb/>voit la grosse tour de Bourges. Tout le circuit
+               <lb/>estoit ceint d’<choice><orig>vn</orig><reg>un</reg></choice> fossé large de quatre pas, profond
+               <lb/>d’<choice><orig>vne</orig><reg>une</reg></choice> demie toise &amp; plus. La porte estoit selon l’<choice><orig>ad-
+               <lb rend="hyphen"/>uenue</orig><reg>ad-
+               <lb rend="hyphen"/>venue</reg></choice> de la porte grande du palais, <choice><orig>esleuee</orig><reg>eslevee</reg></choice> pour le
+               <lb/>machicoulis <choice><orig>enuiron</orig><reg>environ</reg></choice> trois piedz plus haut que la
+               <lb/>muraille: de laquelle descendoit <choice><orig>vn</orig><reg>un</reg></choice> pont <choice><orig>leuis</orig><reg>levis</reg></choice> <choice><orig>ius-
+               <lb rend="hyphen"/>ques</orig><reg>jus-
+               <lb rend="hyphen"/>ques</reg></choice> sus la contrescarpe du fossé.
+            </p>
+            <lb/><p rend="indent">Au <choice><orig>iour</orig><reg>jour</reg></choice> susdit XIIII. de ce mois de Mars, le
+               <lb/>ciel &amp; l’air semblerent <choice><orig>fauoriser</orig><reg>favoriser</reg></choice> à la feste. Car <choice><orig>lon</orig><reg>l’on</reg></choice>
+               <fw place="bot-right" type="catch">n’<choice><orig>auoit</orig><reg>avoit</reg></choice></fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0019.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_009" n="9"/>
+               
+               <fw place="top-right" type="pageNum">9</fw>
+               
+               <lb/>n’<choice><orig>auoit</orig><reg>avoit</reg></choice> de long temps veu <choice><orig>iournee</orig><reg>journee</reg></choice> tant claire, sere-
+               <lb rend="hyphen"/>ne, &amp; <choice><orig>ioyeuse</orig><reg>joyeuse</reg></choice>, comme icelle fut en toute sa duree.
+               <lb/>La <choice><orig>frequēce</orig><reg>frequence</reg></choice> du peuple estoit incroyable. Car non
+               <lb/>seulement les Seigneurs <choice><orig>Reuerendissimes</orig><reg>Reverendissimes</reg></choice> Cardi-
+               <lb rend="hyphen"/>naux presque tous, les <choice><orig>Euesques</orig><reg>Evesques</reg></choice>, Prelatz, Officiers,
+               <lb/>Seigneurs, &amp; Dames, &amp; commun peuple de la vil-
+               <lb rend="hyphen"/>le y estoient accouruz: mais aussi des terres <choice><orig>circun-
+               <lb rend="hyphen"/>uoisines</orig><reg>circun-
+               <lb rend="hyphen"/>voisines</reg></choice> à plus de <choice><orig>cinquāte</orig><reg>cinquante</reg></choice> lieües à la ronde, <choice><orig>estoiēt</orig><reg>estoient</reg></choice>
+               <lb/><choice><orig>conuenuz</orig><reg>convenuz</reg></choice> <choice><orig>nōbre</orig><reg>nombre</reg></choice> <choice><orig>merueilleux</orig><reg>merveilleux</reg></choice> de Seigneurs Ducz,
+               <lb/><choice><orig>Cōtes</orig><reg>Comtes</reg></choice>, Barons, gentilzhommes, <choice><orig>auecques</orig><reg>avecques</reg></choice> leurs fem
+               <lb rend="hyphen"/>mes &amp; familles, au bruit qui estoit couru de ce <choice><orig>nou
+               <lb rend="hyphen"/>ueau</orig><reg>nou
+               <lb rend="hyphen"/>veau</reg></choice> tournoy: aussi qu’on <choice><orig>auoit</orig><reg>avoit</reg></choice> veu es <choice><orig>iours</orig><reg>jours</reg></choice> prece-
+               <lb rend="hyphen"/>dens tous les brodeurs, tailleurs, recameurs, pluma-
+               <lb rend="hyphen"/>ciers, &amp; autres de telz mestiers employez &amp; occu-
+               <lb rend="hyphen"/>pez à parfaire les <choice><orig>accoustremēs</orig><reg>accoustremens</reg></choice> requis à la feste. De
+               <lb/>mode que non les palais, maisons, loges, galeries, &amp;
+               <lb/>eschauffautz seulement estoient pleins de gens en
+               <lb/>bien grande serre, quoy que la place soit des plus
+               <lb/><choice><orig>grādes</orig><reg>grandes</reg></choice> &amp; spacieuses qu’on voye: mais aussi les toitz
+               <lb/>&amp; <choice><orig>couuertures</orig><reg>couvertures</reg></choice> des maisons &amp; eglises voisines. Au
+               <lb/>mylieu de la place pendoient les armoiries de mon
+               <lb rend="hyphen"/>dit Seigneur d’ <choice><orig>Orleās</orig><reg>Orleans</reg></choice> en bien grande marge à dou
+               <lb rend="hyphen"/>ble face, entournoiees d’<choice><orig>vn</orig><reg>un</reg></choice> <choice><orig>ioyeux</orig><reg>joyeux</reg></choice> feston de Myr-
+               <lb rend="hyphen"/>tes, Lierres, Lauriers, &amp; Orangiers mignonnement
+               <lb/>instrophiees d’or cliquant <choice><orig>auecques</orig><reg>avecques</reg></choice> ceste inscription:
+               <lb/><quote rend="center_it" xml:lang="lat">Cresce infans, fatis nec te ipse vocantibus aufer.</quote>
+            </p>
+            <lb/><p rend="indent">Sus les XVIII. heures, selon la supputation du
+               <lb/>païs, qui est entre <choice><orig>vne</orig><reg>une</reg></choice> &amp; deux apres mydi, ce pen-
+               <fw place="bot-center" type="sig">A 5</fw><fw place="bot-right" type="catch">dant</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0020.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_010" n="10"/>
+               
+               <fw place="top-left" type="pageNum">10</fw>
+               
+               <lb rend="hyphen"/>dant que les <choice><orig>cōbatans</orig><reg>combatans</reg></choice> soy mettoient en armes, en-
+               <lb rend="hyphen"/>trerent dedens la place les deux Caporions Colon-
+               <lb rend="hyphen"/>nois <choice><orig>auecques</orig><reg>avecques</reg></choice> leurs gens embastonnez, assez mal
+               <lb/>en poinct. Puis <choice><orig>suruindrent</orig><reg>survindrent</reg></choice> les Suisses de la garde <lb/>du Pape <choice><orig>auecques</orig><reg>avecques</reg></choice> leur Capitaine tous armez à
+               <lb/>blanc, la picque au poing, bien en bon ordre, pour
+               <lb/>garder la place. Alors pour temporiser &amp; esbatre
+               <lb/>l’assemblee magnifique, furent laschez quatre ter-
+               <lb rend="hyphen"/>ribles &amp; fiers taureaux. Les premier &amp; second fu-
+               <lb rend="hyphen"/>rent abandonnez aux gladiateurs &amp; bestiaires à
+               <lb/>l’espee &amp; cappe. Le tiers fut combatu par trois <choice><orig>grās</orig><reg>grans</reg></choice>
+               <lb/>chiens Corses, auquel combat y eut de passetemps
+               <lb/>beaucoup. Le quart fut <choice><orig>abādonné</orig><reg>abandonné</reg></choice> au long bois, <choice><orig>sa-
+               <lb rend="hyphen"/>uoir</orig><reg>sa-
+               <lb rend="hyphen"/>voir</reg></choice> est picques, partusanes, halebardes, corsecques,
+               <lb/>espieuz Boulonnois: par ce qu’il sembloit trop fu-
+               <lb rend="hyphen"/>rieux, &amp; eust peu faire beaucoup de mal parmy le
+               <lb/>menu peuple.
+            </p>
+            <lb/><p rend="indent">Les taureaux desconfitz, &amp; la place vuyde du
+               <lb/>peuple <choice><orig>iusques</orig><reg>jusques</reg></choice> aux barrieres, <choice><orig>suruint</orig><reg>survint</reg></choice> le Moret
+               <lb/>archibouffon d’Italie, monté sus <choice><orig>vn</orig><reg>un</reg></choice> bien puissant
+               <lb/>roussin, &amp; tenant en main quatre lances liees &amp;
+               <lb/>entees dedens <choice><orig>vne</orig><reg>une</reg></choice>, soy vantant de les rompre tou-
+               <lb rend="hyphen"/>tes d’<choice><orig>vne</orig><reg>une</reg></choice> course contre terre. Ce qu’il essaya, fiere-
+               <lb rend="hyphen"/>ment <choice><orig>picquāt</orig><reg>picquant</reg></choice> son roussin, mais il n’en rompit que
+               <lb/>la poignee, &amp; s’accoustra le bras en coureur buffo-
+               <lb rend="hyphen"/>nique. Cela fait, en la place entra au son des fifres
+               <lb/>&amp; tabours <choice><orig>vne</orig><reg>une</reg></choice> enseigne de gens de pied, tous gor-
+               <lb rend="hyphen"/>giasement accoustrez, armez de harnois presque
+               <fw place="bot-right" type="catch">tous</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0021.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_011" n="11"/>
+               
+               <fw place="top-right" type="pageNum">11</fw>
+               
+               <lb/>tous dorez, <choice><orig>tāt</orig><reg>tant</reg></choice> picquiers, qu’escoulpetiers en nom-
+               <lb rend="hyphen"/>bre de trois cens, &amp; plus. Iceux furent <choice><orig>suiuis</orig><reg>suivis</reg></choice> par
+               <lb/>quatre trompettes, &amp; <choice><orig>vn</orig><reg>un</reg></choice> estanterol de gens de
+               <lb/><choice><orig>cheual</orig><reg>cheval</reg></choice>, tous <choice><orig>seruiteurs</orig><reg>serviteurs</reg></choice> de sa <choice><orig>Maiesté</orig><reg>Majesté</reg></choice>, &amp; de la part
+               <lb/>Françoise, les plus gorgias, qu’on pourroit souhai-
+               <lb rend="hyphen"/>ter: nombre de cinquante <choice><orig>cheuaux</orig><reg>chevaux</reg></choice>, &amp; d’<choice><orig>auanta-
+               <lb rend="hyphen"/>ge</orig><reg>avanta-
+               <lb rend="hyphen"/>ge</reg></choice>. Lesquelz la visiere haulsee feirent deux tours
+               <lb/>le long de la place en grande alaigresse faisans
+               <lb/>poppizer, bondir, &amp; penader leurs <choice><orig>cheuaux</orig><reg>chevaux</reg></choice>, <choice><orig>vns</orig><reg>uns</reg></choice>
+               <lb/>parmy les autres, au grand contentement de tous
+               <lb/>les spectateurs. Puis se retirerent au bout de la pla-
+               <lb rend="hyphen"/>ce à gauche vers le monastere de saint Marcel.
+               <lb/>D’icelle bande pour les gens de pied estoit Capi-
+               <lb rend="hyphen"/>taine le seigneur Astorre Baglion. <choice><orig>Lenseigne</orig><reg>L’enseigne</reg></choice> du-
+               <lb rend="hyphen"/>quel, &amp; escharpes de ses gens estoit de couleurs <choice><orig>blāc</orig><reg>blanc</reg></choice>
+               <lb/>&amp; bleu. Le seigneur Duc Horace estoit chef des
+               <lb/>hommes d’armes, desquelz voluntiers <choice><orig>i</orig><reg>j</reg></choice>’ay cy des-
+               <lb rend="hyphen"/>souz mis les noms, pour l’honneur d’iceux.
+               <list type="simple">
+                  <item><space quantity="10" unit="mm"/>L’Excellence dudit seigneur Duc.</item>
+                  <item><space quantity="10" unit="mm"/>Paule Baptiste Fregose.</item>
+                  <item><space quantity="10" unit="mm"/>Flaminio de Languillare.</item>
+                  <item><space quantity="10" unit="mm"/>Alexandre Cinquin.</item>
+                  <item><space quantity="10" unit="mm"/>Luca d’Onane.</item>
+                  <item><space quantity="10" unit="mm"/>Theobaldo de la Molare.</item>
+                  <item><space quantity="10" unit="mm"/>Philippe de Serlupis.</item>
+                  <item><space quantity="10" unit="mm"/>Dominique de Massimis.</item>
+                  <item><space quantity="10" unit="mm"/>P. Loïs Capisucco.</item>
+                  <item><space quantity="10" unit="mm"/>P. Paule de la Cecca.</item>
+                  <fw place="bot-right" type="catch">Bern</fw>
+                  
+                  <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0022.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_012" n="12"/>
+                  
+                  <fw place="top-left" type="pageNum">12</fw>
+                  
+                  <item><space quantity="10" unit="mm"/>Bernardin <choice><orig>Piouene</orig><reg>Piovene</reg></choice>.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><orig>Ludouic</orig><reg>Ludovic</reg></choice> Cosciari.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><orig>Ian</orig><reg>Jan</reg></choice> Paule escuier de son Excellence.</item>
+               </list>
+            </p>
+            <lb/>
+            <lb/><p rend="indent">Tous en harnois dorez, montez sus gros Cour-
+               <lb rend="hyphen"/>siers, leurs pages montez sus Genetz, &amp; <choice><orig>cheuaux</orig><reg>chevaux</reg></choice>
+               <lb/>Turcs, pour le combat à l’espee.
+            </p>
+            <lb/><p rend="indent">La <choice><orig>liuree</orig><reg>livree</reg></choice> de son Excellence estoit blanc, &amp; in-
+               <lb rend="hyphen"/>carnat, laquelle <choice><orig>pouuoit</orig><reg>pouvoit</reg></choice> on voir es habillemens,
+               <lb/>bardes, caparassons, pennaches, panonceaux, lan-
+               <lb rend="hyphen"/>ces, fourreaux d’espees, tant dessusdits <choice><orig>cheualiers</orig><reg>chevaliers</reg></choice>,
+               <lb/>que des pages &amp; estaffiers, qui les <choice><orig>suyuoient</orig><reg>suyvoient</reg></choice> en bon
+               <lb/>nombre. Ses quatre trompettes vestuz de casa-
+               <lb rend="hyphen"/>quins de velours incarnat decouppé, &amp; doublé de
+               <lb/>toille d’argent. Son Excellence estoit richement
+               <lb/>vestue sus les armes d’<choice><orig>vn</orig><reg>un</reg></choice> accoustrement fait à l’an-
+               <lb rend="hyphen"/>tique de satin incarnat broché d’or, <choice><orig>couuert</orig><reg>couvert</reg></choice> de
+               <lb/>croissans estoffez en riche broderie de toille &amp; ca-
+               <lb rend="hyphen"/>netille d’argent. De telle parure estoient sembla-
+               <lb rend="hyphen"/>blement vestuz &amp; <choice><orig>couuers</orig><reg>couvers</reg></choice> tous les hommes d’ar-
+               <lb rend="hyphen"/>mes susdits, &amp; leurs <choice><orig>cheuaux</orig><reg>chevaux</reg></choice> pareillement. Et n’est
+               <lb/>à obmettre qu’entre les susdits croissans d’argent
+               <lb/>à haut relief, par certains quadres estoient en riche
+               <lb/>broderie posees quatre gerbes recamees à couleur
+               <lb/>verde, autour desquelles estoit escrit ce mot, <foreign xml:lang="lat">FLA-
+               <lb rend="hyphen"/>VESCENT</foreign>. Voulant signifier (selon mon opi-
+               <lb rend="hyphen"/>nion) quelque sienne grande esperance estre pro-
+               <lb rend="hyphen"/>chaine de maturité &amp; <choice><orig>iouissance</orig><reg>jouissance</reg></choice>.
+            </p>
+            <lb/><p rend="indent">Ces deux bandes ainsi escartees, &amp; restant la
+               <fw place="bot-right" type="catch">place</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0023.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_013" n="13"/>
+               
+               <fw place="top-right" type="pageNum">13</fw>
+               
+               <lb/>place vuyde, soudain entra par le <choice><sic>a coite</sic><corr source="#XBSB_Rabelais_Sciomachie1549">costé</corr></choice> droit du
+               <lb/>bas de la place <choice><orig>vne</orig><reg>une</reg></choice> compagnie de <choice><orig>ieunes</orig><reg>jeunes</reg></choice> &amp; belles
+               <lb/>Dames richement atournees, &amp; vestues à la Nym-
+               <lb rend="hyphen"/>phale, ainsi que voyons les Nymphes par les mo-
+               <lb rend="hyphen"/>numens antiques. Desquelles la principale plus
+               <lb/>eminente &amp; haute de toutes autres, representant
+               <lb/>Diane, portoit sus le sommet du front <choice><orig>vn</orig><reg>un</reg></choice> crois-
+               <lb rend="hyphen"/>sant d’argent: la <choice><orig>cheuelure</orig><reg>chevelure</reg></choice> blonde esparse sus les
+               <lb/>espaules, tressee sus la teste <choice><orig>auecques</orig><reg>avecques</reg></choice> <choice><orig>vne</orig><reg>une</reg></choice> girlande
+               <lb/>de laurier toute instrophiee de roses, violettes, &amp; au
+               <lb rend="hyphen"/>tres belles fleurs: vestue sus la sottane &amp; verdugalle
+               <lb/>de damas rouge cramoisi à riches broderies, d’<choice><orig>vne</orig><reg>une</reg></choice>
+               <lb/>fine toille de Cypre toute battue d’or: curieuse-
+               <lb rend="hyphen"/>ment pliee, comme si fust <choice><orig>vn</orig><reg>un</reg></choice> rochet de Cardinal,
+               <lb/>descendant <choice><orig>iusques</orig><reg>jusques</reg></choice> à my <choice><orig>iambe</orig><reg>jambe</reg></choice>, &amp; par dessus <choice><orig>vne</orig><reg>une</reg></choice>
+               <lb/>peau de Leopard bien rare &amp; precieuse attachee à
+               <lb/>gros boutons d’or sus l’espaule gauche. Ses botines
+               <lb/>dorees, entaillees, &amp; nouees à la Nymphale <choice><orig>auec-
+               <lb rend="hyphen"/>ques</orig><reg>avec-
+               <lb rend="hyphen"/>ques</reg></choice> cordons de toille d’argent: son cor d’<choice><orig>Iuoire</orig><reg>Ivoire</reg></choice>
+               <lb/>pendant souz le bras gausche, sa trousse precieuse-
+               <lb rend="hyphen"/>ment recamee &amp; labouree de Perles pendoit de
+               <lb/>l’espaule droite à gros cordons &amp; houppes de soye
+               <lb/>blanche &amp; incarnate. Elle en main droite tenoit
+               <lb/><choice><orig>vne</orig><reg>une</reg></choice> dardelle argentee. Les autres Nymphes peu
+               <lb/>differoient en accoustremens: exceptez qu’elles
+               <lb/>n’<choice><orig>auoiēt</orig><reg>avoient</reg></choice> le croissant d’argent sus le front. Chacune
+               <lb/>tenoit <choice><orig>vn</orig><reg>un</reg></choice> arc Turquois bien beau en main, &amp; la
+               <lb/>trousse comme la premiere. Aucunes sus leurs ro-
+               <fw place="bot-right" type="catch">chetz</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0024.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_014" n="14"/>
+               
+               <fw place="top-left" type="pageNum">14</fw>
+               
+               <lb rend="hyphen"/>chetz <choice><orig>portoiēt</orig><reg>portoient</reg></choice> peaux d’Africanes, autres de Loups
+               <lb/><choice><orig>ceruiers</orig><reg>cerviers</reg></choice>, autres de Martes Calabroises. Aucunes
+               <lb/>menoient des <choice><orig>leuriers</orig><reg>levriers</reg></choice> en lesse, autres sonnoient de
+               <lb/>leurs trombes. C’estoit belle chose les voir. Ainsi
+               <lb/>soy <choice><orig>pourmenās</orig><reg>pourmenans</reg></choice> par la place en plaisans gestes com-
+               <lb rend="hyphen"/>me si elles allassent à la chasse, <choice><orig>aduint</orig><reg>advint</reg></choice> qu’<choice><orig>vne</orig><reg>une</reg></choice> du
+               <lb/>trouppeau soy amusant à l’escart de la compagnie
+               <lb/>pour nouer <choice><orig>vn</orig><reg>un</reg></choice> cordon de sa botine, fut prinse par
+               <lb/>aucuns soudars sortiz du chasteau à <choice><orig>l’improuiste</orig><reg>l’improviste</reg></choice>.
+               <lb/>A ceste prinse fut horrible effroy en la compagnie.
+               <lb/>Diane hautement cryoit, qu’on la rendist, les au-
+               <lb rend="hyphen"/>tres Nymphes pareillement en cris piteux &amp; la-
+               <lb rend="hyphen"/>mentables. Rien ne leur fut respondu par ceux
+               <lb/>qui estoient dedens le chasteau. Adonques tirans
+               <lb/>quelque nombre de flesches pardessus le parapete,
+               <lb/>&amp; fierement menassans ceux du dedens, s’en re-
+               <lb rend="hyphen"/>tournerent portans face &amp; gestes au retour autant
+               <lb/>tristes &amp; piteuses, comme <choice><orig>auoient</orig><reg>avoient</reg></choice> eu <choice><orig>ioyeuses</orig><reg>joyeuses</reg></choice> &amp;
+               <lb/>gayes à l’aller.
+            </p>
+            <lb/><p rend="indent">Sus la fin de la place rencontrans son Excellen-
+               <lb rend="hyphen"/>ce, &amp; sa compagnie, feirent ensemble cris effroya-
+               <lb rend="hyphen"/>bles. Diane luy ayant exposé la <choice><orig>desconuenue</orig><reg>desconvenue</reg></choice>, com
+               <lb rend="hyphen"/>me à son mignon &amp; <choice><orig>fauorit</orig><reg>favorit</reg></choice> tesmoing la <choice><orig>deuise</orig><reg>devise</reg></choice> des
+               <lb/>croissans d’argent espars par ses accoustremens,
+               <lb/>requist ayde secours &amp; vengeance. Ce que luy fut
+               <lb/>promis &amp; asseuré. Puis sortirent les Nymphes hors
+               <lb/>la place. Adonques son Excellence <choice><orig>enuoye</orig><reg>envoye</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> he-
+               <lb rend="hyphen"/>raut par <choice><orig>deuers</orig><reg>devers</reg></choice> ceux qui estoient dedens le cha-
+               <fw place="bot-right" type="catch">steau,</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0025.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_015" n="15"/>
+               
+               <fw place="top-right" type="pageNum">15</fw>
+               
+               <lb rend="hyphen"/>steau, requerant la Nymphe <choice><orig>rauie</orig><reg>ravie</reg></choice> luy estre rendue
+               <lb/>sus <choice><orig>linstant</orig><reg>l’instant</reg></choice>. Et en cas de refus ou delay les menas-
+               <lb rend="hyphen"/>sant fort &amp; ferme de mettre eux &amp; <choice><sic>là</sic><corr resp="#MLD">la</corr></choice> forteresse à
+               <lb/>feu &amp; à sang. Ceux du chasteau feirent response,
+               <lb/><choice><orig>quilz</orig><reg>qu’ilz</reg></choice> vouloient la Nymphe pour soy, &amp; que s’ilz
+               <lb/>la vouloient <choice><orig>recouurir</orig><reg>recouvrir</reg></choice>, il failloit <choice><orig>iouer</orig><reg>jouer</reg></choice> des cou-
+               <lb rend="hyphen"/>steaux, &amp; n’oublier rien en la boutique. A tant non
+               <lb/>seulement ne la rendirent à ceste sommation, mais
+               <lb/>la monterent au plus haut de la tour quarree en
+               <lb/>veüe de la part foraine. Le heraut retourné &amp; en-
+               <lb rend="hyphen"/>tendu le refus, son Excellence tint sommairement
+               <lb/>conseil <choice><orig>auecques</orig><reg>avecques</reg></choice> ses Capitaines. Là fut resolu de
+               <lb/>ruïner le chasteau, &amp; tous ceux qui <choice><orig>seroiēt</orig><reg>seroient</reg></choice> dedens.
+            </p>
+            <lb/><p rend="indent">Auquel instant, par le costé droit du bas de la
+               <lb/>place entrerent au son de quatre trompettes, fifres
+               <lb/>&amp; tabours <choice><orig>vn</orig><reg>un</reg></choice> estanterol de gens de <choice><orig>cheual</orig><reg>cheval</reg></choice>, &amp; <choice><orig>vne</orig><reg>une</reg></choice>
+               <lb/>enseigne de gens de pied, marchans furieusement,
+               <lb/>comme voulans entrer par force dedens le cha-
+               <lb rend="hyphen"/>steau au secours de ceux qui le tenoient. Des gens
+               <lb/>de pied estoit Capitaine le seigneur Chappin <choice><orig>Vr-
+               <lb rend="hyphen"/>sin</orig><reg>Ur-
+               <lb rend="hyphen"/>sin</reg></choice>, tous hommes galans, &amp; superbement armez
+               <lb/>tant picquiers que harquebousiers en nombre de
+               <lb/>trois cens &amp; plus. Les couleurs de son enseigne, &amp;
+               <lb/>escharpes estoient blanc &amp; orangé. Les gens de <choice><orig>che-
+               <lb rend="hyphen"/>ual</orig><reg>che-
+               <lb rend="hyphen"/>val</reg></choice> faisans nombre de cinquante <choice><orig>cheuaux</orig><reg>chevaux</reg></choice> &amp; plus,
+               <lb/>tous en harnois dorez, richement vestuz, &amp; enhar-
+               <lb rend="hyphen"/>nachez estoient conduits par les seigneurs Robert
+               <lb/>Strossi, &amp; Maligni. La <choice><orig>liuree</orig><reg>livree</reg></choice> du seigneur Robert
+               <fw place="bot-right" type="catch">de son</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0026.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_016" n="16"/>
+               
+               <fw place="top-left" type="pageNum">16</fw>
+               <lb/>de son accoustrement sus armes, des bardes, cappa-
+               <lb rend="hyphen"/>rassons, pennaches, panonceaux, &amp; des <choice><orig>cheualiers</orig><reg>chevaliers</reg></choice>
+               <lb/>par luy conduits, des trompettes pages &amp; estaffiers
+               <lb/>estoit des couleurs blanc, bleu, &amp; orangé. Celle du
+               <lb/>seigneur de Maligni, &amp; des gens par luy conduits,
+               <lb/>estoit des couleurs blanc, rouge, &amp; noir. Et si ceux
+               <lb/>de son Excellence estoient bien &amp; <choice><orig>aduantagement</orig><reg>advantagement</reg></choice>
+               <lb/>montez, &amp; richement accoustrez, ceux cy ne leurs
+               <lb/>cedoient en rien. Les noms des hommes d’armes
+               <lb/><choice><orig>i</orig><reg>j</reg></choice>’ay icy mis à leur honneur &amp; louenge.
+               <list type="simple">
+                  <item><space quantity="10" unit="mm"/>Le seigneur Robert Strossi.</item>
+                  <item><space quantity="10" unit="mm"/>Le seigneur de Maligni.</item>
+                  <item><space quantity="10" unit="mm"/>S. <choice><orig>Auerso</orig><reg>Averso</reg></choice> de Languillare.</item>
+                  <item><space quantity="10" unit="mm"/>S. de Malicorne le <choice><orig>ieune</orig><reg>jeune</reg></choice>.</item>
+                  <item><space quantity="10" unit="mm"/>M.  <choice><orig>Iean</orig><reg>Jean</reg></choice> Baptiste de Victorio.</item>
+                  <item><space quantity="10" unit="mm"/>S. de piebon.</item>
+                  <item><space quantity="10" unit="mm"/>M. Scipion de <choice><orig>Piouene</orig><reg>Piovene</reg></choice>.</item>
+                  <item><space quantity="10" unit="mm"/>S. de Villepernay.</item>
+                  <item><space quantity="10" unit="mm"/>Spagnino.</item>
+                  <item><space quantity="10" unit="mm"/>Baptiste, picqueur du seigneur Ambassadeur.</item>
+                  <item><space quantity="10" unit="mm"/>Le <choice><orig>caualcador</orig><reg>cavalcador</reg></choice> du  Seigneur Robert.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><orig>Iean</orig><reg>Jean</reg></choice> Baptiste <choice><orig>Altouiti</orig><reg>Altoviti</reg></choice>.</item>
+                  <item><space quantity="10" unit="mm"/>S. de la Garde.</item>
+               </list>
+            </p>
+            <lb/>
+            <lb/><p rend="indent">Ces deux derniers ne furent au combat, par ce
+               <lb/>que quelques <choice><orig>iours</orig><reg>jours</reg></choice> <choice><orig>dauant</orig><reg>davant</reg></choice> la feste, soy essayans
+               <lb/>dedens les thermes de Diocletian <choice><orig>auecques</orig><reg>avecques</reg></choice> la com-
+               <lb rend="hyphen"/>pagnie, au premier fut <choice><orig>vne</orig><reg>une</reg></choice> <choice><orig>iambe</orig><reg>jambe</reg></choice> rompue, au se-
+               <lb rend="hyphen"/>cond, le poulse taillé de long. Ces deux bandes
+               <fw place="bot-right" type="catch">donq</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0027.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_017" n="17"/>
+               
+               <fw place="top-right" type="pageNum">17</fw>
+               
+               <lb/>donques entrans fierement en la place furent ren-
+               <lb rend="hyphen"/>contrees de son Excellence &amp; de ses compagnies.
+               <lb/>Alors fut l’escarmouche attaquee des <choice><orig>vns</orig><reg>uns</reg></choice> parmy
+               <lb/>les autres en <choice><orig>braueté</orig><reg>braveté</reg></choice> honnorable, sans toutesfois
+               <lb/>rompre lances ny espees. Les derniers entrez <choice><orig>tous-
+               <lb rend="hyphen"/>iours</orig><reg>tous-
+               <lb rend="hyphen"/>jours</reg></choice> soy retirans vers le fort: les premiers entrez
+               <lb/><choice><orig>tousiours</orig><reg>tousjours</reg></choice> les <choice><orig>poursuyuans</orig><reg>poursuyvans</reg></choice>, <choice><orig>iusques</orig><reg>jusques</reg></choice> à ce qu’ilz <choice><orig>furēt</orig><reg>furent</reg></choice>
+               <lb/>pres le fossé. Adonques fut tiré du chasteau grand
+               <lb/>nombre d’artillerie grosse &amp; moyenne, &amp; se retira
+               <lb/>son Excellence, &amp; ses bandes en son camp: les deux
+               <lb/>bandes dernieres entrerent dedens le chasteau.
+            </p>
+            <lb/><p rend="indent">Ceste escarmouche finie sortit <choice><orig>vn</orig><reg>un</reg></choice> trompette du
+               <lb/>chasteau <choice><orig>enuoyé</orig><reg>envoyé</reg></choice> <choice><orig>deuers</orig><reg>devers</reg></choice> son Excellence, entendre
+               <lb/>si ses <choice><orig>cheualiers</orig><reg>chevaliers</reg></choice> vouloient faire <choice><orig>esprouue</orig><reg>esprouve</reg></choice> de leurs
+               <lb/>vertus en Monomachie, <choice><orig>cestadire</orig><reg>c’estadire</reg></choice> homme à hom-
+               <lb rend="hyphen"/>me contre les tenans. Auquel fut <choice><orig>respōdu</orig><reg>respondu</reg></choice>, que bien
+               <lb/>voluntiers le feroient. Le trompette retourné <choice><orig>sor-
+               <lb rend="hyphen"/>tirēt</orig><reg>sor-
+               <lb rend="hyphen"/>tirent</reg></choice> hors le chasteau deux hommes d’armes ayans
+               <lb/>chacun la lance au poing, &amp; la visiere abbatue. Et
+               <lb/>se poserent sus le <choice><orig>reuelin</orig><reg>revelin</reg></choice> du fossé en face des assail-
+               <lb rend="hyphen"/>lans. De la bande desquelz pareillement se targe-
+               <lb rend="hyphen"/>rent deux hommes d’armes, lance au poing, visiere
+               <lb/>abattue. Lors sonnans les trompettes d’<choice><orig>vn</orig><reg>un</reg></choice> costé &amp;
+               <lb/>d’autre les hommes d’armes soy rencontrerent pi-
+               <lb rend="hyphen"/>quans furieusement leurs dextriers: puis les lances
+               <lb/>rompues tant d’<choice><orig>vn</orig><reg>un</reg></choice> costé, comme d’autre, mirent la
+               <lb/>main aux espees, &amp; soy chamaillerent l’<choice><orig>vn</orig><reg>un</reg></choice> l’autre
+               <lb/>si brusquement, que leurs espees volerent en pieces.
+               <fw place="bot-center" type="sig">B</fw><fw place="bot-right" type="catch">Ces</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0028.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_018" n="18"/>
+               
+               <fw place="top-left" type="pageNum">18</fw>
+               
+               <lb/>Ces quatre retirez, sortirent quatre autres, &amp; com-
+               <lb rend="hyphen"/>batirent deux contre deux, comme les premiers: &amp;
+               <lb/>ainsi consequentement combatirent tous les gens
+               <lb/>de <choice><orig>cheual</orig><reg>cheval</reg></choice> des deux bandes <choice><orig>controuerses</orig><reg>controverses</reg></choice>.
+            </p>
+            <lb/><p rend="indent">Ceste Monomachie <choice><orig>paracheuee</orig><reg>parachevee</reg></choice>, ce <choice><orig>pendāt</orig><reg>pendant</reg></choice> que
+               <lb/>les gens de pied entretenoient la retraite, son Ex-
+               <lb rend="hyphen"/>cellence, &amp; sa compagnie changeans de <choice><orig>cheuaux</orig><reg>chevaux</reg></choice>
+               <lb/>reprindrent <choice><orig>nouuelles</orig><reg>nouvelles</reg></choice> lances, &amp; en trouppe se pre-
+               <lb rend="hyphen"/>senterent <choice><orig>deuāt</orig><reg>devant</reg></choice> la face du chasteau: les gens de pied
+               <lb/>sus le flanc droit <choice><orig>couuers</orig><reg>couvers</reg></choice> d’aucuns rondeliers ap-
+               <lb rend="hyphen"/>portoient eschelles, comme pour emporter le fort
+               <lb/>d’emblee: &amp; <choice><orig>ia</orig><reg>ja</reg></choice> <choice><orig>auoient</orig><reg>avoient</reg></choice> planté quelques eschelles du
+               <lb/>costé de la porte, quand du chasteau fut tant tiré
+               <lb/>d’artillerie, tant <choice><orig>ietté</orig><reg>jetté</reg></choice> de mattons, micraines, potz,
+               <lb/>&amp; lances à feu, que tout le voisinage en retondis-
+               <lb rend="hyphen"/>soit, &amp; ne voioyt on autour que feu, flambe, &amp; fu-
+               <lb rend="hyphen"/>mee, <choice><orig>auecques</orig><reg>avecques</reg></choice> tonnoirres horrifiques de telle ca-
+               <lb rend="hyphen"/>nonnerie. Dont furent contraints les forains soy
+               <lb/>retirer, &amp; abandonner les eschelles. Quelques sou-
+               <lb rend="hyphen"/>dars du fort sortirent souz la fumee, &amp; chargerent
+               <lb/>les gens de pied forains de maniere qu’ilz <choice><orig>prindrēt</orig><reg>prindrent</reg></choice>
+               <lb/>deux prisonniers. Puis <choice><orig>suyuās</orig><reg>suyvans</reg></choice> leur fortune se <choice><orig>trou-
+               <lb rend="hyphen"/>uerent</orig><reg>trou-
+               <lb rend="hyphen"/>verent</reg></choice> <choice><orig>enueloppez</orig><reg>enveloppez</reg></choice> entre quelque esquadron des
+               <lb/>forains caché comme en embuscade. Là craingnans
+               <lb/>que la bataille <choice><orig>ensuiuist</orig><reg>ensuivist</reg></choice>, se retirent au trot &amp; per-
+               <lb rend="hyphen"/>dirent deux de leurs gens, qui furent semblable-
+               <lb rend="hyphen"/>ment emmenez prisonniers. A leur retraite sorti-
+               <lb rend="hyphen"/>rent du chasteau les gens de <choice><orig>cheual</orig><reg>cheval</reg></choice> cinq à cinq par
+               <fw place="bot-right" type="catch">ranc,</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0029.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_019" n="19"/>
+               
+               <fw place="top-right" type="pageNum">19</fw>
+               
+               <lb/>ranc, la lance au poing. Les forains de mesmes se
+               <lb/>presenterent, &amp; rompirent lances en tourbe, par
+               <lb/>plusieurs courses. Qui est chose grandement peril-
+               <lb rend="hyphen"/>leuse. Tant y ha que le seigneur de Maligni ayant
+               <lb/>fait passee sans attainte contre l’escuier de son Ex-
+               <lb rend="hyphen"/>cellence, au retour le choqua de telle violence, qu’il
+               <lb/>rua par terre <choice><orig>hōme</orig><reg>homme</reg></choice> &amp; <choice><orig>cheual</orig><reg>cheval</reg></choice>. Et en <choice><orig>linstant</orig><reg>l’instant</reg></choice> mou-
+               <lb rend="hyphen"/>rut le <choice><orig>cheual</orig><reg>cheval</reg></choice>, qui estoit <choice><orig>vn</orig><reg>un</reg></choice> bien beau &amp; puissant
+               <lb/>coursier. Celuy dudit S. Maligni resta espaulé.
+            </p>
+            <lb/><p rend="indent">Le <choice><orig>tēps</orig><reg>temps</reg></choice> pendant qu’on tira hors le <choice><orig>cheual</orig><reg>cheval</reg></choice> mort,
+               <lb/><choice><orig>sonnerēt</orig><reg>sonnerent</reg></choice> en autre &amp; plus <choice><orig>ioyeuse</orig><reg>joyeuse</reg></choice> harmonie les <choice><orig>cō-
+               <lb rend="hyphen"/>pagnies</orig><reg>com-
+               <lb rend="hyphen"/>pagnies</reg></choice> des musiciens, lesquelz on <choice><orig>auoit</orig><reg>avoit</reg></choice> posé en <choice><orig>di
+               <lb rend="hyphen"/>uers</orig><reg>di
+               <lb rend="hyphen"/>vers</reg></choice> eschauffautz sus la place: <choice><orig>cōme</orig><reg>comme</reg></choice> hautbois, cor-
+               <lb rend="hyphen"/>netz, sacqueboutes, flutes d’<choice><orig>Allemās</orig><reg>Allemans</reg></choice>, doucines, mu
+               <lb rend="hyphen"/>settes, &amp; autres, pour <choice><orig>esiouir</orig><reg>esjouir</reg></choice> les spectateurs par cha-
+               <lb rend="hyphen"/>cune pose du plaisant tournoy. La place vuidee, les
+               <lb/>hommes d’armes tant d’<choice><orig>vn</orig><reg>un</reg></choice> costé comme d’autre, le
+               <lb/>S. de Maligni monté sus <choice><orig>vn</orig><reg>un</reg></choice> genet frais, &amp; l’escuier
+               <lb/>sus <choice><orig>vn</orig><reg>un</reg></choice> autre (car peu s’estoient blessez) laissans les
+               <lb/>lances combatirent à l’espee en tourbe les <choice><orig>vns</orig><reg>uns</reg></choice> par-
+               <lb rend="hyphen"/>my les autres assez <choice><orig>felonnemēt</orig><reg>felonnement</reg></choice>. Car il y eut tel qui
+               <lb/><choice><orig>rōpit</orig><reg>rompit</reg></choice> trois &amp; quatre espees: &amp; quoy qu’ilz fussent
+               <lb/><choice><orig>couuers</orig><reg>couvers</reg></choice> à l’<choice><orig>aduantage</orig><reg>advantage</reg></choice>, plusieurs y <choice><orig>furēt</orig><reg>furent</reg></choice> desarmez.
+            </p>
+            <lb/><p rend="indent">La fin fut qu’<choice><orig>vne</orig><reg>une</reg></choice> bande de harquebousiers fo-
+               <lb rend="hyphen"/>rains chargerent à coups d’escoulpettes les tenans,
+               <lb/>dont furent contraintz soy retirer au fort, &amp; <choice><orig>mirēt</orig><reg>mirent</reg></choice>
+               <lb/>pied à terre. Sus ceste entrefaite au son de la campa-
+               <lb rend="hyphen"/>nelle du chasteau, fut tiré grand nombre d’artille-
+               <fw place="bot-center" type="sig">B 2</fw><fw place="bot-right" type="catch">rie:</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0030.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_020" n="20"/>
+               
+               <fw place="top-left" type="pageNum">20</fw>
+               
+               <lb rend="hyphen"/>rie: &amp; se retirerent les forains, qui pareillement mi-
+               <lb rend="hyphen"/>rent pied à terre, &amp; <choice><orig>delibererēt</orig><reg>delibererent</reg></choice> donner la bataille,
+               <lb/>voyans sortir du fort tous les <choice><orig>tenās</orig><reg>tenans</reg></choice> en ordre de <choice><orig>cō-
+               <lb rend="hyphen"/>bat</orig><reg>com-
+               <lb rend="hyphen"/>bat</reg></choice>. Pourtant prindrent <choice><orig>vn</orig><reg>un</reg></choice> chacun la picque mor-
+               <lb rend="hyphen"/>nee en poing, &amp; les enseignes desployees, à desmar-
+               <lb rend="hyphen"/>che <choice><orig>graue</orig><reg>grave</reg></choice> &amp; lente se <choice><orig>presenterēt</orig><reg>presenterent</reg></choice> en veüe des <choice><orig>tenās</orig><reg>tenans</reg></choice>,
+               <lb/>au seul son des fifres &amp; tabours, estans les hommes
+               <lb/>d’armes en premiere filliere, les harquebousiers en
+               <lb/>flanc. Puis marchans oultre encore quatre ou cinq
+               <lb/>pas, se <choice><orig>mirēt</orig><reg>mirent</reg></choice> tous à genouilz, tant les forains que les
+               <lb/>tenans, par autant d’espace de temps en silence,
+               <lb/>qu’on diroit l’oraison dominicale.
+            </p>
+            <lb/><p rend="indent">Par tout le discours du tournoy precedent fut
+               <lb/>le bruit &amp; applausion des spectateurs <choice><orig>grād</orig><reg>grand</reg></choice> en tou-
+               <lb rend="hyphen"/>te <choice><orig>circunferēce</orig><reg>circunference</reg></choice>. A ceste precation, fut <choice><orig>silēce</orig><reg>silence</reg></choice> de tous
+               <lb/>endroits, non sans effroy, <choice><orig>mesmemēt</orig><reg>mesmement</reg></choice> des Dames, &amp;
+               <lb/>de ceux qui n’<choice><orig>auoiēt</orig><reg>avoient</reg></choice> autre fois esté en bataille. Les
+               <lb/>combatans ayans baisé la terre soudain au son des
+               <lb/>tabours se <choice><orig>leuerent</orig><reg>leverent</reg></choice>, &amp; les picques baissees en hurle-
+               <lb rend="hyphen"/>mens <choice><orig>espouuētables</orig><reg>espouventables</reg></choice> vindrent à <choice><orig>ioindre</orig><reg>joindre</reg></choice>, les harque-
+               <lb rend="hyphen"/>bousiers de mesmes sus les flans <choice><orig>tiroiēt</orig><reg>tiroient</reg></choice> infatigable-
+               <lb rend="hyphen"/>ment. Et y eut tant de picques brisees, que la place
+               <lb/>en estoit toute <choice><orig>couuerte</orig><reg>couverte</reg></choice>. Les picques rompues mi-
+               <lb rend="hyphen"/>rent la main aux espees, &amp; y eut tant chamaillé à
+               <lb/>tors &amp; à <choice><orig>trauers</orig><reg>travers</reg></choice>, qu’à <choice><orig>vne</orig><reg>une</reg></choice> fois les tenans <choice><orig>repoulserēt</orig><reg>repoulserent</reg></choice>
+               <lb/>les forains plus de la longueur de deux picques: à
+               <lb/>l’autre les <choice><sic>forains</sic><corr source="#editeurs_de_Rabelais">tenans</corr></choice> furent repoulsez <choice><orig>iusques</orig><reg>jusques</reg></choice> au <choice><orig>re-
+               <lb rend="hyphen"/>uelin</orig><reg>re-
+               <lb rend="hyphen"/>velin</reg></choice> des tourrions. Lors furent <choice><orig>sauuez</orig><reg>sauvez</reg></choice> par l’artil-
+               <fw place="bot-right" type="catch">lerie</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0031.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_021" n="21"/>
+               
+               <fw place="top-right" type="pageNum">21</fw>
+               
+               <lb rend="hyphen"/>lerie tirant de tous les quantons du chasteau, dont
+               <lb/>les forains se <choice><orig>retirerēt</orig><reg>retirerent</reg></choice>. Ce <choice><orig>cōbat</orig><reg>combat</reg></choice> dura assez <choice><orig>longue-
+               <lb rend="hyphen"/>mēt</orig><reg>longue-
+               <lb rend="hyphen"/>ment</reg></choice>. Et y fut donné quelques esraflades de picques
+               <lb/>&amp; espees, sans courroux toutesfois, n’affection <choice><orig>mau
+               <lb rend="hyphen"/>uaise</orig><reg>mau
+               <lb rend="hyphen"/>vaise</reg></choice>. La retraite faite tant d’<choice><orig>vn</orig><reg>un</reg></choice> costé <choice><orig>cōme</orig><reg>comme</reg></choice> d’au-
+               <lb rend="hyphen"/>tre, resterent en place à <choice><orig>trauers</orig><reg>travers</reg></choice> les picques rompues
+               <lb/>&amp; harnois brisez deux <choice><orig>hōmes</orig><reg>hommes</reg></choice> morts, mais c’<choice><orig>estoiēt</orig><reg>estoient</reg></choice>
+               <lb/><choice><orig>hōmes</orig><reg>hommes</reg></choice> de foin: desquelz l’<choice><orig>vn</orig><reg>un</reg></choice> <choice><orig>auoit</orig><reg>avoit</reg></choice> le bras gauche
+               <lb/>couppé, &amp; le visage tout en sang, l’autre <choice><orig>auoit</orig><reg>avoit</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice>
+               <lb/><choice><orig>trāson</orig><reg>transon</reg></choice> de picque à <choice><orig>trauers</orig><reg>travers</reg></choice> le corps souz la faute du
+               <lb/>harnois. Autour desquelz fut recreation <choice><orig>nouuelle</orig><reg>nouvelle</reg></choice>
+               <lb/>ce pendant <choice><orig>&amp;q̄</orig><reg>en que</reg></choice> la musique sonnoit. Car Frerot à tout
+               <lb/>son accoustrement de velours incarnat fueilleté de
+               <lb/>toille d’argent, à forme d’aesles de Souris <choice><orig>chauue</orig><reg>chauve</reg></choice>, &amp;
+               <lb/>Fabritio <choice><orig>auecques</orig><reg>avecques</reg></choice> sa couronne de laurier, soy <choice><orig>ioin-
+               <lb rend="hyphen"/>gnirent</orig><reg>join-
+               <lb rend="hyphen"/>gnirent</reg></choice> à eux: l’<choice><orig>vn</orig><reg>un</reg></choice> les admonestoit de leur salut, les
+               <lb/>confessoit, &amp; <choice><orig>absouloit</orig><reg>absovloit</reg></choice> comme gens morts pour la
+               <lb/>foy: l’autre les tastoit aux goussetz &amp; en la bra-
+               <lb rend="hyphen"/>guette pour <choice><orig>trouuer</orig><reg>trouver</reg></choice> la bourse. En fin les <choice><orig>descou-
+               <lb rend="hyphen"/>urans</orig><reg>descou-
+               <lb rend="hyphen"/>vrans</reg></choice> &amp; despouillans <choice><orig>monstrerēt</orig><reg>monstrerent</reg></choice> au peuple que ce
+               <lb/>n’estoient que gens de foin. Dont fut grande risee
+               <lb/>entre les spectateurs, soy esbahissans <choice><orig>cōment</orig><reg>comment</reg></choice> on les
+               <lb/><choice><orig>auoit</orig><reg>avoit</reg></choice> ainsi là mis &amp; <choice><orig>iettez</orig><reg>jettez</reg></choice>, <choice><orig>durāt</orig><reg>durant</reg></choice> ce furieux <choice><orig>cōbat</orig><reg>combat</reg></choice>.
+            </p>
+            <lb/><p rend="indent">A ceste retraite, le <choice><orig>iour</orig><reg>jour</reg></choice> esclarci &amp; purgé des fu-
+               <lb rend="hyphen"/>mees &amp; perfums de la canonnerie, apparurent au
+               <lb/>mylieu de la place huit ou dix gabions en renc, &amp;
+               <lb/>cinq pieces d’artillerie sus roue: lesquelles durant la
+               <lb/>bataille <choice><orig>auoiēt</orig><reg>avoient</reg></choice> esté posees par les canonniers de son
+               <fw place="bot-center" type="sig">B 3</fw><fw place="bot-right" type="catch">Excel</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0032.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_022" n="22"/>
+               
+               <fw place="top-left" type="pageNum">22</fw>
+               
+               <lb/><choice><orig>Excellēce</orig><reg>Excellence</reg></choice>. Ce qu’estant apperceu par <choice><orig>vne</orig><reg>une</reg></choice> sentinelle
+               <lb/>monté sus la haute tour du chasteau au son de la
+               <lb/><choice><orig>cāpanelle</orig><reg>campanelle</reg></choice> fut fait &amp; ouy grand effroy &amp; <choice><orig>hurlemēt</orig><reg>hurlement</reg></choice>
+               <lb/>de ceux du <choice><orig>dedēs</orig><reg>dedens</reg></choice>: &amp; fut lors tiré <choice><orig>tāt</orig><reg>tant</reg></choice> d’artillerie par
+               <lb/>tous les endroits du fort, &amp; <choice><orig>tāt</orig><reg>tant</reg></choice> de sciopes, fusees en
+               <lb/>canon, palles, &amp; lances à feu vers les gabions posez,
+               <lb/>qu’on n’eust point ouy <choice><orig>tōner</orig><reg>tonner</reg></choice> du ciel. Ce <choice><orig>nōobstāt</orig><reg>nonobstant</reg></choice>,
+               <lb/>l’artillerie posee derriere les gabions tira furieuse-
+               <lb rend="hyphen"/>ment par deux fois contre le chasteau, en grand <choice><orig>es-
+               <lb rend="hyphen"/>pouuentement</orig><reg>es-
+               <lb rend="hyphen"/>pouventement</reg></choice> du peuple <choice><orig>assistāt</orig><reg>assistant</reg></choice>. Dont tomba par
+               <lb/>le dehors la muraille <choice><orig>iusques</orig><reg>jusques</reg></choice> au cordon: laquelle,
+               <lb/>comme ay dit, estoit de brique. De ce <choice><orig>aduint</orig><reg>advint</reg></choice> que le
+               <lb/>fossé fut <choice><orig>rēply</orig><reg>remply</reg></choice>. A la cheute resta l’artillerie du <choice><orig>dedēs</orig><reg>dedens</reg></choice>
+               <lb/><choice><orig>descouuerte</orig><reg>descouverte</reg></choice>: <choice><orig>vn</orig><reg>un</reg></choice> <choice><orig>bōbardier</orig><reg>bombardier</reg></choice> <choice><orig>tōba</orig><reg>tomba</reg></choice> mort du haut de la
+               <lb/>grosse tour. Mais c’estoit <choice><orig>vn</orig><reg>un</reg></choice> <choice><orig>bōbardier</orig><reg>bombardier</reg></choice> de foin <choice><orig>re-
+               <lb rend="hyphen"/>uestu</orig><reg>re-
+               <lb rend="hyphen"/>vestu</reg></choice>. Ceux du dedens adonques commencerent à
+               <lb/>remparer derriere ceste breche en <choice><orig>grād</orig><reg>grand</reg></choice> effort &amp; di
+               <lb rend="hyphen"/>ligence. Les forains ce pendant <choice><orig>feirēt</orig><reg>feirent</reg></choice> <choice><orig>vne</orig><reg>une</reg></choice> mine, par
+               <lb/>laquelle ilz <choice><orig>mirēt</orig><reg>mirent</reg></choice> le feu en deux tourrions du cha-
+               <lb rend="hyphen"/>steau, lesquelz tombans par terre à la moitié, <choice><orig>feirēt</orig><reg>feirent</reg></choice>
+               <lb/><choice><orig>vn</orig><reg>un</reg></choice> bruit horrible. L’<choice><orig>vn</orig><reg>un</reg></choice> d’iceux brusloit continuel-
+               <lb rend="hyphen"/>lement, l’autre faisoit fumee tant hydeuse &amp; espais-
+               <lb rend="hyphen"/>se, qu’on ne <choice><orig>pouuoit</orig><reg>pouvoit</reg></choice> plus voir le chasteau.
+            </p>
+            <lb/><p rend="indent">Derechef fut faite <choice><orig>nouuelle</orig><reg>nouvelle</reg></choice> batterie, &amp; tirerent
+               <lb/>les cinq grosses pieces par deux fois contre le cha-
+               <lb rend="hyphen"/>steau. Dont tomba toute l’escarpe de la muraille:
+               <lb/>laquelle, comme ay dit, estoit faite de tables &amp; li-
+               <lb rend="hyphen"/>mandes. Dont tombant par le dehors feit <choice><orig>cōme</orig><reg>comme</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice>
+               <fw place="bot-right" type="catch">pont</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0033.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_023" n="23"/>
+               
+               <fw place="top-right" type="pageNum">23</fw>
+               
+               <lb/>pont tout <choice><orig>couurant</orig><reg>couvrant</reg></choice> le fossé <choice><orig>iusques</orig><reg>jusques</reg></choice> sus le <choice><orig>reuelin</orig><reg>revelin</reg></choice>.
+               <lb/>Resta seulement la barriere &amp; rempart, que les te-
+               <lb rend="hyphen"/>nans <choice><orig>auoient</orig><reg>avoient</reg></choice> dressé. Lors pour empescher l’assaut
+               <lb/>des forains lesquelz estoient tous en <choice><orig>ordonnāce</orig><reg>ordonnance</reg></choice> au
+               <lb/>bout de la place, furent <choice><orig>iettees</orig><reg>jettees</reg></choice> dix trombes de feu,
+               <lb/><choice><orig>canōs</orig><reg>canons</reg></choice> de fusees, palles, mattons, &amp; potz à feu: &amp; du
+               <lb/>rempart fut <choice><orig>ietté</orig><reg>jetté</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> <choice><orig>biē</orig><reg>bien</reg></choice> gros ballon en la place, du-
+               <lb rend="hyphen"/>quel à <choice><orig>vn</orig><reg>un</reg></choice> coup sortirent <choice><orig>trēte</orig><reg>trente</reg></choice> bouches de feu, plus
+               <lb/>de mille fusees ensemble, &amp; <choice><orig>trēte</orig><reg>trente</reg></choice> razes. Et couroit
+               <lb/>ledit ballon parmy la place, <choice><orig>iettant</orig><reg>jettant</reg></choice> feu de tous co-
+               <lb rend="hyphen"/>stez, qui estoit chose <choice><orig>espouuētable</orig><reg>espouventable</reg></choice>. Fait par l’<choice><orig>inuen
+               <lb rend="hyphen"/>tion</orig><reg>inven
+               <lb rend="hyphen"/>tion</reg></choice> de messer Vincentio Romain, &amp; Francisque
+               <lb/><choice><orig>Florētin</orig><reg>Florentin</reg></choice>, bombardiers du Pere saint. Frerot faisant
+               <lb/>le bon compagnon courut apres ce ballon, en l’<choice><orig>ap-
+               <lb rend="hyphen"/>pellāt</orig><reg>ap-
+               <lb rend="hyphen"/>pellant</reg></choice> gueulle d’enfer, &amp; teste de Lucifer, mais d’<choice><orig>vn</orig><reg>un</reg></choice>
+               <lb/>coup qu’il frappa dessus <choice><orig>auecques</orig><reg>avecques</reg></choice> <choice><orig>vn</orig><reg>un</reg></choice> transon de
+               <lb/>picque, il se <choice><orig>trouua</orig><reg>trouva</reg></choice> tout <choice><orig>couuert</orig><reg>couvert</reg></choice> de feu, &amp; crioit
+               <lb/>comme <choice><orig>vn</orig><reg>un</reg></choice> enragé, fuyant deça &amp; delà, &amp; bruslant
+               <lb/>ceux qu’il touchoit. Puis <choice><orig>deuint</orig><reg>devint</reg></choice> noir comme <choice><orig>vn</orig><reg>un</reg></choice>
+               <lb/>Ethiopien, &amp; si bien marqué au visage, qu’il y pa-
+               <lb rend="hyphen"/>roistra, encores d’icy à trois mois. Sus la <choice><orig>cōsomma-
+               <lb rend="hyphen"/>tion</orig><reg>consomma-
+               <lb rend="hyphen"/>tion</reg></choice> du ballon fut sonné à l’assaut, de la part de son
+               <lb/>Excellence, lequel <choice><orig>auecques</orig><reg>avecques</reg></choice> ses hommes d’armes à
+               <lb/>pied <choice><orig>couuers</orig><reg>couvers</reg></choice> de <choice><orig>grādes</orig><reg>grandes</reg></choice> targes d’arain doré à l’anti-
+               <lb rend="hyphen"/>que façon, &amp; <choice><orig>suiuy</orig><reg>suivy</reg></choice> du reste de ses bandes entra sus
+               <lb/>le pont susdit. Ceux du dedens luy feirent teste sus
+               <lb/>le rempart &amp; barriere. A laquelle fut combatu plus
+               <lb/><choice><orig>felonnemēt</orig><reg>felonnement</reg></choice> que n’<choice><orig>auoit</orig><reg>avoit</reg></choice> encores esté. Mais par for-
+               <fw place="bot-center" type="sig">B 4</fw><fw place="bot-right" type="catch">ce en</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0034.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_024" n="24"/>
+               
+               <fw place="top-left" type="pageNum">24</fw>
+               
+               <lb rend="hyphen"/>ce en fin franchirent la barriere, &amp; entrerent sus le
+               <lb/>rempart. Auquel instant l’on veit sus la haute tour
+               <lb/>les armoiries de sa <choice><orig>Maiesté</orig><reg>Majesté</reg></choice> <choice><orig>enleuees</orig><reg>enlevees</reg></choice> <choice><orig>auecques</orig><reg>avecques</reg></choice> fe-
+               <lb rend="hyphen"/>stons <choice><orig>ioyeux</orig><reg>joyeux</reg></choice>. A dextre desquelles peu plus bas
+               <lb/><choice><orig>estoiēt</orig><reg>estoient</reg></choice> celles de mon seigneur d’Orleans, à gauche
+               <lb/>celles de son Excellence. Qui fut sur les deux heu-
+               <lb rend="hyphen"/>res de nuict. La Nymphe <choice><orig>rauie</orig><reg>ravie</reg></choice> fut presentee à son
+               <lb/>Excellence, &amp; sus l’heure <choice><orig>rēdue</orig><reg>rendue</reg></choice> à Diane, laquelle se
+               <lb/><choice><orig>trouua</orig><reg>trouva</reg></choice> en place comme retournant de la chasse.
+            </p>
+            <lb/><p rend="indent">Le peuple assistant, grans &amp; menuz, nobles &amp;
+               <lb/>roturiers, reguliers &amp; seculiers, hommes &amp; femmes
+               <lb/>bien au plein <choice><orig>esiouiz</orig><reg>esjouiz</reg></choice>, contens, &amp; satisfaits <choice><orig>feirēt</orig><reg>feirent</reg></choice> ap-
+               <lb rend="hyphen"/>plausement de <choice><orig>ioye</orig><reg>joye</reg></choice> &amp; alaigresse, de tous costez à
+               <lb/>haute voiz crians &amp; chantans <choice><orig>Viue</orig><reg>Vive</reg></choice>France, <choice><orig>Frāce</orig><reg>France</reg></choice>,
+               <lb/><choice><orig>Frāce</orig><reg>France</reg></choice>, <choice><orig>viue</orig><reg>vive</reg></choice> <choice><orig>Orleās</orig><reg>Orleans</reg></choice>, <choice><orig>viue</orig><reg>vive</reg></choice> Horace Farnese. Quelques
+               <lb/><choice><orig>vns</orig><reg>uns</reg></choice> <choice><orig>adiousterēt</orig><reg>adjousterent</reg></choice>, <choice><orig>Viue</orig><reg>Vive</reg></choice> Paris, <choice><orig>viue</orig><reg>vive</reg></choice> Bellay, <choice><orig>viue</orig><reg>vive</reg></choice> la co-
+               <lb rend="hyphen"/>ste de Langey: nous <choice><orig>pouuons</orig><reg>pouvons</reg></choice> dire ce que <choice><orig>iadis</orig><reg>jadis</reg></choice> <choice><orig>lon</orig><reg>l’on</reg></choice>
+               <lb/><choice><orig>chātoit</orig><reg>chantoit</reg></choice> à la denonciation des <choice><orig>ieuz</orig><reg>jeuz</reg></choice> Seculares: Nous
+               <lb/><choice><orig>auons</orig><reg>avons</reg></choice> veu ce que personne en Rome <choice><orig>viuāt</orig><reg>vivant</reg></choice> ne veit,
+               <lb/>personne en Romme <choice><orig>viuant</orig><reg>vivant</reg></choice> ne verra.
+            </p>
+            <lb/><p rend="indent">L’heure estoit <choice><orig>ia</orig><reg>ja</reg></choice> tarde &amp; opportune pour soup
+               <lb rend="hyphen"/>per, lequel <choice><orig>pēdant</orig><reg>pendant</reg></choice> que son Excellence se desarma,
+               <lb/>&amp; changea d’<choice><orig>habillemēs</orig><reg>habillemens</reg></choice> ensemble tous les vaillans
+               <lb/>champions &amp; nobles <choice><orig>combatās</orig><reg>combatans</reg></choice>, fut dressé en sum-
+               <lb rend="hyphen"/>ptuosité &amp; magnificence si grande, qu’elle <choice><orig>pouuoit</orig><reg>pouvoit</reg></choice>
+               <lb/>effacer les celebres <choice><orig>bāquetz</orig><reg>banquetz</reg></choice> de plusieurs <choice><orig>anciēs</orig><reg>anciens</reg></choice> Em-
+               <lb rend="hyphen"/>pereurs Romains &amp; Barbares: voire certes la patine
+               <lb/>&amp; cuisinerie de Vitellius, tant celebree, qu’elle vint
+               <fw place="bot-right" type="catch">en pro</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0035.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_025" n="25"/>
+               
+               <fw place="top-right" type="pageNum">25</fw>
+               
+               <lb/>en <choice><orig>prouerbe</orig><reg>proverbe</reg></choice>. au banquet duquel <choice><orig>furēt</orig><reg>furent</reg></choice> <choice><orig>seruies</orig><reg>servies</reg></choice> mil-
+               <lb rend="hyphen"/>le pieces de poisson. <choice><orig>Ie</orig><reg>Je</reg></choice> ne parleray point du nom-
+               <lb rend="hyphen"/>bre, &amp; rares especes des poissons icy <choice><orig>seruiz</orig><reg>serviz</reg></choice>: il est par
+               <lb/>trop excessif. Bien vous diray, qu’à ce <choice><orig>bāquet</orig><reg>banquet</reg></choice> <choice><orig>furēt</orig><reg>furent</reg></choice>
+               <lb/><choice><orig>seruies</orig><reg>servies</reg></choice> plus de mille cinq cens pieces de four: <choice><orig>i</orig><reg>j</reg></choice>’en-
+               <lb rend="hyphen"/>tens patez, tartes, &amp; dariolles. Si les viandes furent
+               <lb/>copieuses, aussi <choice><orig>furēt</orig><reg>furent</reg></choice> les <choice><orig>beuuettes</orig><reg>beuvettes</reg></choice> numereuses. Car
+               <lb/>trente poinsons de vin, &amp; cent cinquante douzai-
+               <lb rend="hyphen"/>nes de pain de bouche ne durerent gueres, sans l’au
+               <lb rend="hyphen"/>tre pain mollet &amp; commun. Aussi fut la maison de
+               <lb/>mon dit Seigneur <choice><orig>Reuerendissime</orig><reg>Reverendissime</reg></choice> <choice><orig>ouuerte</orig><reg>ouverte</reg></choice> à tous
+               <lb/>venans, quelz qu’ilz fussent, tout iceluy <choice><orig>iour</orig><reg>jour</reg></choice>. En la
+               <lb/>table premiere de la salle moyenne furent contez
+               <lb/>douze Cardinaux, <choice><orig>sauoir</orig><reg>savoir</reg></choice> est,
+               <lb/>
+               <list type="simple">
+                  <item><space quantity="10" unit="mm"/>Le  <choice><orig>Reuerendissime</orig><reg>Reverendissime</reg></choice> Cardinal Farnese.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><abbr>R. C.</abbr><expan>Reverendissime Cardinal</expan></choice> de saint Ange.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><abbr>R. C.</abbr><expan>Reverendissime Cardinal</expan></choice> sainte Flour.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><abbr>R. C.</abbr><expan>Reverendissime Cardinal</expan></choice> Sermonette.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><abbr>R. C.</abbr><expan>Reverendissime Cardinal</expan></choice> Rodolphe.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><abbr>R. C.</abbr><expan>Reverendissime Cardinal</expan></choice> du Bellay.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><abbr>R. C.</abbr><expan>Reverendissime Cardinal</expan></choice> de Lenoncourt.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><abbr>R. C.</abbr><expan>Reverendissime Cardinal</expan></choice> de Meudon.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><abbr>R. C.</abbr><expan>Reverendissime Cardinal</expan></choice> d’Armignac.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><abbr>R. C.</abbr><expan>Reverendissime Cardinal</expan></choice> Pisan.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><abbr>R. C.</abbr><expan>Reverendissime Cardinal</expan></choice> Cornare.</item>
+                  <item><space quantity="10" unit="mm"/> <choice><abbr>R. C.</abbr><expan>Reverendissime Cardinal</expan></choice> Gaddi.</item>
+               </list>
+            </p>
+            <lb/>
+            <lb/><p rend="indent">Son Excellence, Le seigneur Strossi, l’Ambassa-
+               <lb rend="hyphen"/>deur de Venise. Tant d’autres <choice><orig>Euesques</orig><reg>Evesques</reg></choice> &amp; Pre-
+               <fw place="bot-center" type="sig">B 5</fw><fw place="bot-right" type="catch">latz.</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0036.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_026" n="26"/>
+               
+               <fw place="top-left" type="pageNum">26</fw>
+               
+               <lb rend="hyphen"/>latz. Les autres salles, chambres, galeries d’iceluy pa
+               <lb rend="hyphen"/>lais estoient toutes pleines de tables <choice><orig>seruies</orig><reg>servies</reg></choice> de mes-
+               <lb rend="hyphen"/>mes pain, vin &amp; viandes. Les nappes <choice><orig>leuees</orig><reg>levees</reg></choice> pour
+               <lb/><choice><orig>lauer</orig><reg>laver</reg></choice> les mains <choice><orig>furēt</orig><reg>furent</reg></choice> presentees deux fontaines ar-
+               <lb rend="hyphen"/>tificielles sus la table toutes instrophiees de fleurs
+               <lb/>odorantes <choice><orig>auecques</orig><reg>avecques</reg></choice> compartimens à l’antique. Le
+               <lb/>dessus desquelles ardoit de feu plaisant &amp; redolent
+               <lb/>composé d’eaue ardante musquee: au dessouz par
+               <lb/><choice><orig>diuers</orig><reg>divers</reg></choice> canaux sortoit eaue d’Ange, eaue de Naphe,
+               <lb/>&amp; eaue Rose. Les graces dites en musique honno-
+               <lb rend="hyphen"/>rable, fut par Labbat prononcee <choice><orig>auecques</orig><reg>avecques</reg></choice> sa gran-
+               <lb rend="hyphen"/>de Lyre, l’Ode que <choice><orig>trouuerez</orig><reg>trouverez</reg></choice> icy à la fin, compo-
+               <lb rend="hyphen"/>see par mondit Seigneur <choice><orig>Reuerendissime</orig><reg>Reverendissime</reg></choice>.</p>
+            
+            <lb/><p rend="indent">Puis les tables <choice><orig>leuees</orig><reg>levees</reg></choice> <choice><orig>entrerēt</orig><reg>entrerent</reg></choice> tous les Seigneurs
+               <lb/>en la salle <choice><orig>maiour</orig><reg>majour</reg></choice>, <choice><orig>biē</orig><reg>bien</reg></choice> tapissee &amp; atournee. Là cuy-
+               <lb rend="hyphen"/>doit on que fust <choice><orig>iouee</orig><reg>jouee</reg></choice> <choice><orig>vne</orig><reg>une</reg></choice> Comedie, mais elle ne le
+               <lb/>fut, par ce qu’il estoit <choice><orig>ia</orig><reg>ja</reg></choice> plus de minuict: &amp; au ban-
+               <lb rend="hyphen"/>quet que mon Seigneur <choice><orig>Reuerendissime</orig><reg>Reverendissime</reg></choice> Cardinal
+               <lb/>d’Armignac <choice><orig>auoit</orig><reg>avoit</reg></choice> fait au <choice><orig>parauant</orig><reg>paravant</reg></choice> en <choice><orig>auoit</orig><reg>avoit</reg></choice> esté
+               <lb/><choice><orig>iouee</orig><reg>jouee</reg></choice> <choice><orig>vne</orig><reg>une</reg></choice>, laquelle plus facha que ne pleut aux as-
+               <lb rend="hyphen"/>sistans, tant à cause de sa longueur &amp; mines Berga-
+               <lb rend="hyphen"/>masques assez fades, que pour l’<choice><orig>inuētion</orig><reg>invention</reg></choice> bien froi-
+               <lb rend="hyphen"/>de, &amp; argument <choice><orig>triuial</orig><reg>trivial</reg></choice>. En lieu de Comedie au son
+               <lb/>des cornetz, hautzbois, sacqueboutes, &amp;c. entra <choice><orig>vne</orig><reg>une</reg></choice>
+               <lb/>compagnie de Matachins <choice><orig>nouueaux</orig><reg>nouveaux</reg></choice>, lesquelz gran
+               <lb rend="hyphen"/>dement delecterent toute l’assistance. Apres les-
+               <lb rend="hyphen"/>quelz furent introduites plusieurs bandes de mas-
+               <lb rend="hyphen"/>ques, tant gentilzhommes que Dames d’honneur
+               <fw place="bot-right" type="catch">à rich</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0037.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_027" n="27"/>
+               
+               <fw place="top-right" type="pageNum">27</fw>
+               
+               <lb/>à riches <choice><orig>deuises</orig><reg>devises</reg></choice> &amp; habillemens sumptueux. Là
+               <lb/>commença le bal, &amp; dura <choice><orig>iusques</orig><reg>jusques</reg></choice> au <choice><orig>iour</orig><reg>jour</reg></choice>. Lequel
+               <lb/>pendant mesdits Seigneurs <choice><orig>Reuerendissimes</orig><reg>Reverendissimes</reg></choice>, Am-
+               <lb rend="hyphen"/>bassadeurs, &amp; autres Prelatz soy retirerent en
+               <lb/>grande <choice><orig>iubilation</orig><reg>jubilation</reg></choice> &amp; contentement.
+            </p>
+            <lb/><p rend="indent">En ces tournoy &amp; festin <choice><orig>ie</orig><reg>je</reg></choice> notay deux choses 
+               <lb/><choice><sic>iusignes</sic><corr>insignes</corr></choice>. L’<choice><orig>vne</orig><reg>une</reg></choice> est qu’il n’y eut noise, debat, dissen-
+               <lb rend="hyphen"/>tion, ne tumulte aucun: l’autre que de tant de vais-
+               <lb rend="hyphen"/>selle d’argent en laquelle tant de gens de <choice><orig>diuers</orig><reg>divers</reg></choice>
+               <lb/>estatz furent <choice><orig>seruiz</orig><reg>serviz</reg></choice>, il n’y eut rien perdu n’esgaré.
+               <lb/>Les deux soirs subsequens furent faits feuz de <choice><orig>ioye</orig><reg>joye</reg></choice>
+               <lb/>en la place publique <choice><orig>deuant</orig><reg>devant</reg></choice> le palais de mon dit
+               <lb/>Seigneur <choice><orig>Reuerēdissime</orig><reg>Reverendissime</reg></choice>, <choice><orig>auecques</orig><reg>avecques</reg></choice> force artillerie,
+               <lb/>&amp; tant de <choice><orig>diuersitez</orig><reg>diversitez</reg></choice> de feuz artificielz, que c’estoit
+               <lb/>chose <choice><orig>merueilleuse</orig><reg>merveilleuse</reg></choice>, comme de gros ballons, de gros
+               <lb/>mortiers <choice><orig>iettans</orig><reg>jettans</reg></choice> par chacune fois plus de cinq cens
+               <lb/>sciopes &amp; fusees, de rouetz à feu, de moulins à feu,
+               <lb/><hi rend="center">de nues à feu pleines d’estoilles coruscantes, de
+               <lb/>sciopes en canon, aucunes pregnantes,
+               <lb/>autres reciprocantes, &amp; cent autres
+               <lb/>sortes. Le tout fait par l’<choice><orig>inuen-
+               <lb rend="hyphen"/>tion</orig><reg>inven-
+               <lb rend="hyphen"/>tion</reg></choice> dudit Vincentio, &amp;
+               <lb/>du Bois le Court,
+               <lb/>grand Salpe-
+               <lb rend="hyphen"/>trier du
+               <lb/>Mai-
+               <lb rend="hyphen"/>ne.</hi>
+            </p>
+         </div>
+         <div type="ode_sapphique" xml:id="XBSB_Rabelais_Sciomachie1549_n2">
+            <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0038.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_028" n="28"/>
+            <fw place="top-right" type="pageNum">28</fw>
+            <head rend="center">
+               <lb/>ODE SAPPHICA R. D.
+               <lb/>IO. CARDINALIS
+               <lb/>BELLAII.</head>
+            <lg>
+               <l rend="negatif">Mercuri interpres superûm, venusto</l>
+               <l>Ore qui mandata refers vicissim,</l>
+               <l>Gratus hos circum volitans, &amp; illos,</l>
+               <l>Praepete cursu,</l>
+               <l rend="negatif">Adueni sanctis patribus, senique,</l>
+               <l>Praesidet qui concilio deorum,</l>
+               <l>Quem sui spectat soboles Quiritum</l>
+               <l>Numinis instar.</l>
+               <l rend="negatif">Dic iubar, quod Sequanidas ad vndas</l>
+               <l>Edidit Gallis Italisque mixtim</l>
+               <l>Diua, quam primum Tyberi tenellam</l>
+               <l>Credidit Arnus,</l>
+               <l rend="negatif">Tritonum post hanc cominante turba</l>
+               <l>Phocidum celsas subiisse turres,</l>
+               <l>Nec procellosum timuisse vidit</l>
+               <l>Nereis aequor.</l>
+               <l rend="negatif">O diem Hetruscis populis colendum,</l>
+               <l>Et simul Francis iuueni puellam</l>
+               <l>Qui dedit, forma, Genio, decore,</l>
+               <l>Ore coruscam!</l>
+               <l rend="negatif">Fauste tunc in quos Hymenaee, quos tu</l>
+               <fw place="bot-right" type="catch">In ioc</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0039.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_029" n="29"/>
+               
+               <fw place="top-right" type="pageNum">29</fw>
+               
+               <l>In iocos Cypri es resoluta! vel quas</l>
+               <l>Iuno succendit veniente primum</l>
+               <l>Virgine taedas!</l>
+               <l rend="negatif">Vt tibi noctes Catharina laetas,</l>
+               <l>Vt dies Errice tibi serenos,</l>
+               <l>Demum vt ambobus, sobolisque fausta est</l>
+               <l>Cuncta precata!</l>
+               <l rend="negatif">Vt deam primo dea magna partu</l>
+               <l>Iuuit! vt nec defuerit subinde,</l>
+               <l>Quartus vt matri quoque nunc per illam</l>
+               <l>Rideat infans.</l>
+               <l rend="negatif">Quartus is, quem non superi dedere</l>
+               <l>Galliae tantum: sibi <sic>nanque</sic> partem</l>
+               <l>Vendicat, festisque vocat iuuentus</l>
+               <l>Nostra choreis.</l>
+               <l rend="negatif">Laeta si Franciscum etenim iuuentus</l>
+               <l>Hunc petat, cui res pater ipse servat</l>
+               <l>Gallicas, &amp; cui imperium spopondit</l>
+               <l>Iuppiter orbis:</l>
+               <l rend="negatif">Prouocet diuos hominesque tentet</l>
+               <l>Pensa fatorum: fuerit Latinis</l>
+               <l>Et satis Tuscis apibus secundos</l>
+               <l>Carpere flores.</l>
+               <l rend="negatif">Nam sibi primos adimi nec ipsae</l>
+               <l>Gratiae Errici comites perennes,</l>
+               <l>Nec sinat raucis habitans Bleausi</l>
+               <fw place="bot-right" type="catch">Nymp</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0040.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_030" n="30"/>
+               
+               <fw place="top-right" type="pageNum">30</fw>
+               
+               <l>Nympha sub antris.</l>
+               <l rend="negatif">Nec magis vos ô Latio petitae</l>
+               <l>Celticis, sed iam Laribus suetae, &amp;</l>
+               <l>Vocibus Musae, ac patriis canentes</l>
+               <l>Nunc quoque plectris.</l>
+               <l rend="negatif">Et puellarum decus illud, vna</l>
+               <l>Margaris tantum inferior Minerua,</l>
+               <l>Ac Nauarraeae specimen parentis</l>
+               <l>Iana reclamet.</l>
+               <l rend="negatif">Ne quidem Nympha id probet illa, ab imis</l>
+               <l>Quae Padi ripis iuuenem secuta est,</l>
+               <l>Si Parim forma, tamen &amp; pudicum</l>
+               <l>Hectora dextra.</l>
+               <l rend="negatif">Nec tuos haec quae patefecit ignes</l>
+               <l>Ignibus praeclare aliis Horati,</l>
+               <l>Cuncta dum clamant tibi iure partam</l>
+               <l>Esse theatra.</l>
+               <l rend="negatif">Tu licet nostro à Genio tributam ob</l>
+               <l>Gratiam nil non Catharina nobis</l>
+               <l>Debeas, nostro at Geniotuoque hεic</l>
+               <l>Ipsa repugnes.</l>
+               <l rend="negatif">Spe parum nixis igitur suprema</l>
+               <l>Sorte contentis media, faueto,</l>
+               <l>Et recens per te in Latios feratur</l>
+               <l>Flosculus hortos.</l>
+               <l rend="negatif">At nihil matrem moueat, quòd ipsis</l>
+               <fw place="bot-right" type="catch">Vix</fw>
+               
+               <pb facs="http://www.bvh.univ-tours.fr/B372616101_Res3542/ecran/B372616101_Res3542_0041.jpg" xml:id="XBSB_Rabelais_Sciomachie1549_031" n="31"/>
+               
+               <fw place="top-right" type="pageNum">31</fw>
+               
+               <l>Vix adhuc ex vberibus sit infans</l>
+               <l>Pendulus, nullae hεic aderant daturae</l>
+               <l>Vbera matres?</l>
+               <l rend="negatif">Nec tamen lac Romulidum parenti</l>
+               <l>Defuit: néue hεic quiriteris, esse</l>
+               <l>Lustricas nondum puero rogatum</l>
+               <l>Nomen ad vndas.</l>
+               <l rend="negatif">Nominis si te metus iste tangit,</l>
+               <l>Sistere infantem huc modò ne grauere,</l>
+               <l>Diique, diuaeque hunc facient, &amp; omnis</l>
+               <l>Roma Quirinum.</l>
+            </lg>
+            <p>
+               <lb/><foreign xml:lang="ell"><hi rend="center">Τελος.</hi></foreign>
+            </p>
+            <pb xml:id="XBSB_Rabelais_Sciomachie1549_032" n="[32][page blanche]"/>
+            
+            <pb xml:id="XBSB_Rabelais_Sciomachie1549_033" n="[33][page blanche]"/>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,11 @@
+# Dependencies for the TEI/XML NER practical work.
+# Install with:  pip install -r requirements.txt
+
+# Core — required by strip_entities.py and NER_TEI_TogetherAI.ipynb
+lxml>=5.2.1
+together>=2.0.0
+
+# Optional — only needed to run the notebook if you don't already have
+# Jupyter available (e.g. it ships with Anaconda). Uncomment if needed:
+# notebook>=7.0
+# ipykernel>=6.5
